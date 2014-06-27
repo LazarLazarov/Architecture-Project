@@ -9,8 +9,8 @@ nav {
 img {
 	display: inline-block;
 	margin-top:2%;
-	margin-left:10%;
-	max-width: 20%;
+	margin-left:5%;
+	max-width: 30%;
 }
 @font-face {
     font-family: Codelight;
@@ -19,9 +19,10 @@ img {
 nav ul {
 	list-style-type: none;
 	font-weight: 900;
-	width: 50%;
+	max-width: 50%;
 	margin-top:-3%;
-	margin-left:45%;
+	margin-left:auto;
+	margin-right:5%;
 }
 nav ul li {
 	display: inline-block;
