@@ -7,7 +7,6 @@ nav {
 	height:15%;
 }
 img {
-	width:30%;
 	display: inline-block;
 	margin-top:2%;
 	margin-left:10%;
@@ -19,8 +18,9 @@ img {
 }
 nav ul {
 	list-style-type: none;
+	font-weight: 900;
 	width: 50%;
-	margin-top:-5%;
+	margin-top:-3%;
 	margin-left:45%;
 }
 nav ul li {
@@ -31,5 +31,5 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color:black;
-	font-size:1.1em;
+	font-size:1.2em;
 }
