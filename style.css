@@ -11,6 +11,7 @@ img {
 	display: inline-block;
 	margin-top:2%;
 	margin-left:10%;
+	max-width: 20%;
 }
 @font-face {
     font-family: Codelight;
