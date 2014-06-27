@@ -9,7 +9,7 @@ nav {
 img {
 	display: inline-block;
 	margin-top:2%;
-	margin-left:5%;
+	margin-left:10%;
 	max-width: 30%;
 }
 @font-face {
@@ -34,3 +34,4 @@ nav ul li a {
 	color:black;
 	font-size:1.2em;
 }
+nav ul li a:hover{color: #cc3366};
