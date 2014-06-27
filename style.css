@@ -4,9 +4,11 @@ body {
 	padding: 0;
 }
 nav {
-	height:15%;
+	height:20%;
+	width: 100%;
+	position: fixed;
 }
-img {
+#logo {
 	display: inline-block;
 	margin-top:2%;
 	margin-left:10%;
@@ -16,22 +18,72 @@ img {
     font-family: Codelight;
     src: url(code_light.otf);
 }
-nav ul {
+#nav {
 	list-style-type: none;
 	font-weight: 900;
 	max-width: 50%;
-	margin-top:-3%;
+	margin-top:-4%;
 	margin-left:auto;
 	margin-right:5%;
 }
-nav ul li {
+#nav li {
 	display: inline-block;
 	font-family: "Codelight";
 	padding: 1%;
 }
-nav ul li a {
+#nav li a {
 	text-decoration: none;
 	color:black;
 	font-size:1.2em;
 }
-nav ul li a:hover{color: #cc3366};
+#nav li a:hover{color: #cc3366};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#categories	{
+	list-style-type: none;
+	margin-top: 10%;
+}
+#categories li {
+	display: inline-block;
+	width: 14%;
+	height: 14%;
+	margin-top: 12%;
+}
+#categories li img {
+	display: block;
+	margin-left: -10%;
