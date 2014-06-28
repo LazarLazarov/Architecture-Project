@@ -47,7 +47,13 @@ nav {
 #nav li a:hover {
 	color: #cc3366;
 }
-
+#ArchDes{
+	font-family: "Codelight";
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
 body>img {
 position: relative;
 width: 100%;
@@ -63,7 +69,12 @@ margin-bottom: 0px;
 	margin-top: 10%;
 	*/
 section {
-	margin-top:5%;
+	position: relative;
+	margin-top:3%;
+	text-align: center;
+}
+section a:hover{
+	color: #cc3366;
 }
 section a {
 	font-size:1.5em;
@@ -80,7 +91,7 @@ section ul {
 section ul li {
 	display: inline-block;
 	padding-left:10%;
-	padding-right:10%; 
+	padding-right:10%;
 }
 section ul li hr {
 	width:100px;
@@ -101,9 +112,49 @@ section ul li hr {
 	text-align: center;
 }
 #projects {
-	position: relative;
 	display:inline-block;
 	width:98%;
-	height:50%;
-	margin-top: 10%;
+	height:60%;
+	margin-top: -5%;
 }
+#categories li div{	
+	margin-top: 2%;
+	display: inline-block;
+	list-style-type: none;
+	font-family: "Codelight";
+	font-weight:bold;
+	font-size: 1.5em;
+
+}
+/*.project:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+}
+*/
+.project {
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin: 0 3px 3px 0;
+    opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+.project:hover {
+    -webkit-transform: scale(1.02,1.04);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.02,1.04);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+    }
