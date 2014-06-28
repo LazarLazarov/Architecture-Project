@@ -127,7 +127,7 @@ section ul li hr {
 
 }*/
 
-/*.project:hover {
+.circular:hover {
     cursor: pointer;
     transform:scale(1.2);
     -ms-transform:scale(1.2); 
@@ -135,7 +135,7 @@ section ul li hr {
     -webkit-transform:scale(1.2); 
     -o-transform:scale(1.2);
 }
-*/
+
  .grow img {
  	height: 725px;
  	width: 265px;
@@ -172,4 +172,38 @@ section ul li hr {
 }
 #names li a:hover {
 	color:red;
+}
+
+.circular {
+	margin-top: 0%;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-moz-box-shadow:    inset 3px 3px 5px 6px #ccc;
+  	-webkit-box-shadow: inset 3px 3px 5px 6px #ccc;
+  	box-shadow:         inset 3px 3px 5px 6px #ccc;
+
+}
+#circles {
+	margin-top: 13%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#circles li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 3em;
+}
+#ctext {
+	margin-top: -35%;
+	text-align: center;
+}
+#ctext li{	
+	padding: 5.5em;
+	font-size: 1.5em;
+	display: inline-block;
+	list-style-type: none;
 }
