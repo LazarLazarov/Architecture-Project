@@ -9,7 +9,7 @@ a {
 	font-family: "Codelight";
 }
 nav {
-	height:20%;
+	height:17%;
 	width: 100%;
 	position: fixed;
 	background-color: #ecf0f1;
@@ -107,17 +107,17 @@ section ul li hr {
 	height: 14%;
 	margin-top: 12%;
 }
-#categories li img {
+/*#categories li img {
 	display: block;
 	text-align: center;
-}
-#projects {
+}*/
+/*#projects {
 	display:inline-block;
 	width:98%;
 	height:60%;
 	margin-top: -5%;
-}
-#categories li div{	
+}*/
+/*#categories li div{	
 	margin-top: 2%;
 	display: inline-block;
 	list-style-type: none;
@@ -125,7 +125,8 @@ section ul li hr {
 	font-weight:bold;
 	font-size: 1.5em;
 
-}
+}*/
+
 /*.project:hover {
     cursor: pointer;
     transform:scale(1.2);
@@ -135,26 +136,40 @@ section ul li hr {
     -o-transform:scale(1.2);
 }
 */
-.project {
-    text-decoration: none;
-    display: block;
-    float: left;
-    margin: 0 3px 3px 0;
-    opacity: 1;
-    -webkit-transform: scale(1,1);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
-    -moz-transform: scale(1,1);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
+ .grow img {
+ 	height: 725px;
+ 	width: 265px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
-.project:hover {
-    -webkit-transform: scale(1.02,1.04);
-    -webkit-transition-timing-function: ease-out;
-    -webkit-transition-duration: 250ms;
-    -moz-transform: scale(1.02,1.04);
-    -moz-transition-timing-function: ease-out;
-    -moz-transition-duration: 250ms;
-    position: relative;
-    z-index: 99;
-    }
+ 
+.grow img:hover {
+  width: 280px;
+  height: 766px;
+}
+.pic {
+  height: 725px;
+  width: 265px;
+  overflow: hidden;
+
+}
+#names {
+	list-style-type: none;
+	display: block;
+	font-family:"CodeLight";
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#names li{
+	display: inline-block;
+	padding: 3.6em;
+	margin-left: -2%;
+	margin-top: -10%
+}
+#names li a:hover {
+	color:red;
+}
