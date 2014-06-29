@@ -114,6 +114,7 @@ hr {
 }
 section ul {
 	list-style-type: none;
+	width:100%;
 }
 section ul li {
 	display: inline-block;
