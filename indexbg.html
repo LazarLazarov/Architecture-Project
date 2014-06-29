@@ -1,7 +1,8 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="stylebg.css">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<meta charset="UTF-8">
 		<script>
 function initialize() {
 
@@ -12,38 +13,32 @@ function initialize() {
           //scrollwheel: false,//
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
-        var map = new google.maps.Map(map_canvas, map_options);
-        var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: 'Hello World!'
-  });
+        var map = new google.maps.Map(map_canvas, map_options)
       }
       google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 	</head>
 	<body>
-		<!--<div class="dim"><div></div></div>-->
 		<nav>
 			<div id="beg"></div>
 			<a data-scroll data-options="easing: easeInOutQuart" href="#beg"><img id="logo" src="logo.png"></a>
 			<ul id="nav">
-				<li><a a data-scroll data-options="easing: easeInOutQuart" href="#beg">Home</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="#categories">Projects</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="#names">About us</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="#contacts">Contacts</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="#categories">ПРОЕКТИ</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="#names">ЗА НАС</a></li>
+				<li><a href="#">ТЕКУЩИ ПРОЕКТИ</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="#contacts">КОНТАКТИ</a></li>
 			</ul>
 		</nav>
 		<img src="building.jpg" >
 		<section>
-			<div id="ArchDes">Architectural and design agency<hr/></div>
+			<div id="ArchDes">Архитектурно дизайнерска агенция<hr/></div>
 			
 		</section>
 		<section>
 			<ul>
-				<li><a href="#">Research &</br> planning</a><hr/></li>
-				<li><a href="#">Design & </br> develpoment</a><hr/></li>
-				<li><a href="#">Management</a><hr/></li>
+				<li><a href="#">Проучване и</br> планиране</a><hr/></li>
+				<li><a href="#">Проектиране и</br> развитие</a><hr/></li>
+				<li><a href="#">Менижмънт</a><hr/></li>
 			</ul>
 		</section>
 		<!--end page1-->
@@ -57,37 +52,48 @@ function initialize() {
 			<li><div class="grow pic"><a class="test" href="#"><img class="project" src="Projects7.jpg"></a></div></li>
 		</ul>
 		<ul id="names">
-			<li><a class="test" href="#">Residential</a></li>
-			<li><a class="test" href="#">Academic</a></li>
-			<li><a class="test" href="#">Office &</br> public</a></li>
-			<li><a class="test" href="#">Banks</a></li>
-			<li><a class="test" href="#">Hotels</a></li>
-			<li><a class="test" href="#">Industrial</a></li>
-			<li><a class="test" href="#">Interior</a></li>
+			<li><a class="test" href="#">Жилищни</br> сгради</a></li>
+			<li><a class="test" href="#">Учебни</a></li>
+			<li><a class="test" href="#">Обществени</br> сгради</a></li>
+			<li><a class="test" href="#">Банки</a></li>
+			<li><a class="test" href="#">Хотели</a></li>
+			<li><a class="test" href="#">Индустриални</a></li>
+			<li><a class="test" href="#">Интериори</a></li>
 		</ul>
 		<!--end page2-->
 		<ul id="circles" >
 			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
 			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
 			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
-			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
 		</ul>
 		<ul id="ctext">
-			<li><a class="test" href="#">Company</a></li>
-			<li><a class="test" href="#">Exported</br> Services</a></li>
-			<li><a class="test" href="#">Technology</a></li>
-			<li><a class="test" href="#">Carrers</a></li>
+			<li><a class="test" href="#">Компанията</a></li>
+			<li><a class="test" href="#">Техлнологии</a></li>
+			<li><a class="test" href="#">Кариери</a></li>
 		</ul>
-		<!--end page3-->
 		<div id="map_canvas"></div>
 		<ul id="adress">
-			<li><a id="contacts" class="test" href="#"></br>Adress</br> 58 Burel Str,</br> 1408
-											Sofia,</br> Bulgaria</a></li>
-			<li><a class="test" href="#"></br>Tel</br>(+359 2) 953 09 42
-										</br>(+359 2) 954 10 93</br>&nbsp</a></li>
-			<li><a class="test" href="#"></br>Fax</br>(+359 2) 480 85 49</br></br>&nbsp</a></li>
-			<li><a class="test" href="#"></br>E-mail</br>office@vecomplex.com</br></br>&nbsp</a></li>
+			<li><a id="contacts" class="test" href="#">Residential</a></li>
+			<li><a class="test" href="#">Academic</a></li>
+			<li><a class="test" href="#">Office & public</a></li>
+			<li><a class="test" href="#">Banks</a></li>
 		</ul>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
+		</br>
 		<script src="smooth-scroll.js"></script>
 		<script>
     
