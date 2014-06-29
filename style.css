@@ -2,8 +2,11 @@ body {
 	background-color:#ecf0f1 ;
 	margin:0;
 	padding: 0;
-	overflow-x:hidden; 
+	overflow-x:hidden;
+	/*overflow-y:hidden;*/
 }
+/* ---Begins CSS for 1920x1080--------------------------------------------------------------------------------*/ 
+@media all and (min-width:1920px){
 a {
 	text-decoration: none;
 	font-family: "Codelight";
@@ -38,7 +41,7 @@ nav {
 	display: inline-block;
 	font-family: "Codelight";
 	font-weight: 550;
-	padding: 1%;
+	padding: 0.85%;
 }
 #nav li a, section a {
 	color:black;
@@ -105,7 +108,7 @@ section ul li hr {
 	display: inline-block;
 	width: 14%;
 	height: 14%;
-	margin-top: 12%;
+	margin-top: 8%;
 }
 /*#categories li img {
 	display: block;
@@ -134,6 +137,11 @@ section ul li hr {
     -moz-transform:scale(1.2); 
     -webkit-transform:scale(1.2); 
     -o-transform:scale(1.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
  .grow img {
@@ -170,10 +178,12 @@ section ul li hr {
 	margin-left: -2%;
 	margin-top: -10%
 }
-#names li a:hover {
-	color:red;
+#names li a{
+	color:black;
 }
-@media all and (min-width:1920px){
+#names li a:hover {
+	color:#cc3366;
+}
 .circular {
 	margin-top: 0%;
 	width: 300px;
@@ -188,7 +198,7 @@ section ul li hr {
 }
 
 #circles {
-	margin-top: 3%;
+	margin-top: 9%;
 	width: 100%;
 	height:100%;
 	text-align: center;
@@ -207,16 +217,218 @@ section ul li hr {
 	font-size: 1.5em;
 	display: inline-block;
 	list-style-type: none;
+	font-weight: bold;
 }
+#ctext li a{
+	color: black;
 }
-@media all and (min-width:800px) and (max-width:1450px) {
+#ctext li a:hover{
+	color: #cc3366;
+}
+#map_canvas {
+	margin-top:2.6%;
+    width: 1900px;
+    height: 400px;
+    background-color: #CCC;
+  }
+ #adress li{
+ 	margin-top: 2%;
+ 	display:inline-block;
+ 	font-size: 1.3em;
+ 	font-weight: bold;
+ }
+ #adress li a{
+ 	color: black;
+ 	padding: 3em;
+ }
+}
+/* ---Begins CSS for 1280x1024-------------------------------------------------------------------------------- */ 
+
+@media all and (min-width:800px) and (max-width:1280px) {
+a {
+	text-decoration: none;
+	font-family: "Codelight";
+}
+nav {
+	height:17%;
+	width: 100%;
+	position: fixed;
+	background-color: #ecf0f1;
+	z-index: 100;
+}
+#logo {
+	display: inline-block;
+	margin-top:2%;
+	margin-left:10%;
+	max-width: 30%;
+	z-index: 0;
+}
+@font-face {
+    font-family: Codelight;
+    src: url(code_light.otf);
+}
+#nav {
+	list-style-type: none;
+	font-weight: 900;
+	max-width: 50%;
+	margin-top:-4%;
+	margin-left:auto;
+	margin-right:5%;
+}
+#nav li {
+	display: inline-block;
+	font-family: "Codelight";
+	font-weight: 550;
+	padding: 0.85%;
+}
+#nav li a, section a {
+	color:black;
+	font-size:1.2em;
+}
+#nav li a:hover {
+	color: #cc3366;
+}
+#ArchDes{
+	font-family: "Codelight";
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+body>img {
+position: relative;
+width: 100%;
+height: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+/*
+	position: relative;
+	display:inline-block;
+	width:100%;
+	height:50%;
+	margin-top: 10%;
+	*/
+section {
+	position: relative;
+	margin-top:3%;
+	text-align: center;
+}
+section a:hover{
+	color: #cc3366;
+}
+section a {
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+hr {
+	width:20%;
+}
+section ul {
+	list-style-type: none;
+}
+section ul li {
+	display: inline-block;
+	padding-left:10%;
+	padding-right:10%;
+}
+section ul li hr {
+	width:100px;
+}
+
+#categories	{
+	list-style-type: none;
+	margin-top: 10%;
+}
+#categories li {
+	display: inline-block;
+	width: 14%;
+	height: 14%;
+	margin-top: 8%;
+}
+/*#categories li img {
+	display: block;
+	text-align: center;
+}*/
+/*#projects {
+	display:inline-block;
+	width:98%;
+	height:60%;
+	margin-top: -5%;
+}*/
+/*#categories li div{	
+	margin-top: 2%;
+	display: inline-block;
+	list-style-type: none;
+	font-family: "Codelight";
+	font-weight:bold;
+	font-size: 1.5em;
+
+}*/
+
+.circular:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+ .grow img {
+ 	height: 725px;
+ 	width: 265px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 280px;
+  height: 766px;
+}
+.pic {
+  height: 725px;
+  width: 265px;
+  overflow: hidden;
+
+}
+#names {
+	list-style-type: none;
+	display: block;
+	font-family:"CodeLight";
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#names li{
+	display: inline-block;
+	padding: 3.6em;
+	margin-left: -2%;
+	margin-top: -10%
+}
+#names li a{
+	color:black;
+}
+#names li a:hover {
+	color:#cc3366;
+}
 .circular {
 	margin-top: 0%;
-	width: 240px;
-	height: 240px;
-	border-radius: 120px;
-	-webkit-border-radius: 120px;
-	-moz-border-radius: 120px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
 	-moz-box-shadow:    inset 3px 3px 5px 6px #ccc;
   	-webkit-box-shadow: inset 3px 3px 5px 6px #ccc;
   	box-shadow:         inset 3px 3px 5px 6px #ccc;
@@ -224,7 +436,7 @@ section ul li hr {
 }
 
 #circles {
-	margin-top: 3%;
+	margin-top: 10%;
 	width: 100%;
 	height:100%;
 	text-align: center;
@@ -235,13 +447,29 @@ section ul li hr {
 	padding: 3em;
 }
 #ctext {
-	margin-top: -35%;
+	margin-top: -60%;
 	text-align: center;
 }
 #ctext li{	
-	padding: 5.7em;
-	font-size: 1.5em;
+	padding: 4em;
+	font-size: 1.4em;
 	display: inline-block;
 	list-style-type: none;
 }
+#map_canvas {
+	margin-top:2.6%;
+    width: 1900px;
+    height: 400px;
+    background-color: #CCC;
+  }
+ #adress li{
+ 	margin-top: 2%;
+ 	display:inline-block;
+ 	font-size: 1.3em;
+ 	font-weight: bold;
+ }
+ #adress li a{
+ 	color: black;
+ 	padding: 3em;
+ }
 }
