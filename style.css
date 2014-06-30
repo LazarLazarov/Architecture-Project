@@ -6,7 +6,7 @@ body {
 	/*overflow-y:hidden;*/
 }
 /* ---Begins CSS for 1920x1080--------------------------------------------------------------------------------*/ 
-@media all and (min-width:1920px){
+@media only screen and (min-width : 1824px) {
 a {
 	text-decoration: none;
 	font-family: "Codelight";
@@ -276,7 +276,7 @@ section ul li hr {
 }
 /* ---Begins CSS for 1280x1024-------------------------------------------------------------------------------- */ 
 
-@media all and (min-width:800px) and (max-width:1280px) {
+@media only screen and (min-width : 1224px) and (max-width: 1824px){
 a {
 	text-decoration: none;
 	font-family: "Codelight";
