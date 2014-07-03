@@ -81,6 +81,14 @@ nav {
 	font-weight: bold;
 	text-align: center;
 }
+
+/*
+	This is temporary Projects.php css;
+*/
+#CatContainer{
+	position: fixed;
+	top: 250px;	
+}
 body>img {
 position: relative;
 width: 100%;
@@ -326,6 +334,13 @@ nav {
 	display:block;
 	font-weight: bold;
 	text-align: center;
+}
+/*
+	This is temporary Projects.php css;
+*/
+#CatContainer{
+	position: fixed;
+	top: 250px;	
 }
 body>img {
 position: relative;

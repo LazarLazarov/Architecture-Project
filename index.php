@@ -39,13 +39,13 @@ function initialize() {
 		</section>
 		<!--end page1-->
 		<ul id="categories">
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=one"><img class="project"  src="Projects1.jpg"></a></div></li>
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=two"><img class="project" src="Projects2.jpg"></a></div></li>
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=three"><img class="project"  id="ProjectsSc" src="Projects3.jpg"></a></div></li>
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=four"><img class="project" src="Projects4.jpg"></a></div></li>
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=five"><img class="project" src="Projects5.jpg"></a></div></li>
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=six"><img class="project" src="Projects6.jpg"></a></div></li>
-			<li><div class="grow pic"><a class="test" href="projects.php?cat=seven"><img class="project" src="Projects7.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=1"><img class="project"  src="Projects1.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=2"><img class="project" src="Projects2.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=3"><img class="project"  id="ProjectsSc" src="Projects3.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=4"><img class="project" src="Projects4.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=5"><img class="project" src="Projects5.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=6"><img class="project" src="Projects6.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=7"><img class="project" src="Projects7.jpg"></a></div></li>
 		</ul>
 		<ul id="names">
 			<li><a class="test" href="#">Residential</a></li>
