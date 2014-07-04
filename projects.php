@@ -1,10 +1,14 @@
-<?php  include ("includes/head.php"); ?>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style_projects.css">
+	</head>
 <?php  include ("includes/navigation.php"); ?>
 <?php include_once('Includes'.DIRECTORY_SEPARATOR.'connect.php'); ?>
 <?php
-	$projects = mysqli_query($db,"SELECT * FROM projects WHERE project_category =". $_GET['cat']);
-	$result = mysqli_query($db,"SELECT name FROM categories WHERE id =". $_GET['cat']);
-	$cat_name = mysqli_fetch_array($result);
+						// Database queries:
+						$projects = mysqli_query($db,"SELECT * FROM projects WHERE project_category =". $_GET['cat']);
+						$result = mysqli_query($db,"SELECT name FROM categories WHERE id =". $_GET['cat']);
+						$cat_name = mysqli_fetch_array($result);
 
 ?>
 		
@@ -14,11 +18,18 @@
 				</div>
 				<div id = "CatContent">
 					<?php 
+
+						
+						//Visualization
 						foreach($projects as $current){
-							echo "<strong> Name: " . $current["project_name"] . " </strong> </br>";
+							// Image selection:
+							$img = mysqli_query($db,"SELECT * FROM pictures WHERE picture_project =". $current["id"]);
+							$img_info = mysqli_fetch_array($img);
+							echo "<a href=\"project.php?id=". $current['id']."&category=". $cat_name[0] . "\"> <strong> Name: " . $current["project_name"] . " </strong></a> </br>";
 							
-							// TO DO image query + image description????? 
-							print('<img src = '  . ' "project_images/1.png" ' . " />");
+							
+							echo " <img src = \"project_images/$img_info[0].png\" /> </br>";
+							echo "<code> $img_info[2] </code>";
 							echo "<p> " . $current["project_description"] . " </p> </br> <hr/>";
 						}
 					
