@@ -6,7 +6,7 @@ body {
 	/*overflow-y:hidden;*/
 }
 /* ---Begins CSS for 1920x1080--------------------------------------------------------------------------------*/ 
-@media only screen and (min-width : 1824px) {
+@media screen and (min-aspect-ratio: 16/10) {
 a {
 	text-decoration: none;
 	font-family: "Codelight";
@@ -178,7 +178,7 @@ section ul li hr {
     transition: all 1s ease;
 }
 
- .grow img {
+.grow img {
  	height: 725px;
  	width: 265px;
  
@@ -284,13 +284,13 @@ section ul li hr {
 }
 /* ---Begins CSS for 1280x1024-------------------------------------------------------------------------------- */ 
 
-@media only screen and (min-width : 1224px) and (max-width: 1824px){
+@media screen and (min-aspect-ratio: 5/4) and (max-aspect-ratio: 16/9){
 a {
 	text-decoration: none;
 	font-family: "Codelight";
 }
 nav {
-	height:17%;
+	height:12%;
 	width: 100%;
 	position: fixed;
 	background-color: #ecf0f1;
@@ -300,7 +300,7 @@ nav {
 	display: inline-block;
 	margin-top:2%;
 	margin-left:10%;
-	max-width: 30%;
+	max-width: 23%;
 	z-index: 0;
 }
 @font-face {
@@ -323,7 +323,7 @@ nav {
 }
 #nav li a, section a {
 	color:black;
-	font-size:1.2em;
+	font-size:1.0em;
 }
 #nav li a:hover {
 	color: #cc3366;
@@ -345,7 +345,7 @@ nav {
 body>img {
 position: relative;
 width: 100%;
-height: auto;
+height: 65%;
 margin-top: 0px;
 margin-bottom: 0px;
 }
@@ -358,14 +358,14 @@ margin-bottom: 0px;
 	*/
 section {
 	position: relative;
-	margin-top:3%;
+	margin-top:6%;
 	text-align: center;
 }
 section a:hover{
 	color: #cc3366;
 }
 section a {
-	font-size:1.5em;
+	font-size:1.3em;
 	display:block;
 	font-weight: bold;
 	text-align: center;
@@ -386,6 +386,7 @@ section ul li hr {
 }
 
 #categories	{
+	padding: 0%;
 	list-style-type: none;
 	margin-top: 10%;
 }
@@ -394,6 +395,7 @@ section ul li hr {
 	width: 14%;
 	height: 14%;
 	margin-top: 8%;
+
 }
 /*#categories li img {
 	display: block;
@@ -431,7 +433,7 @@ section ul li hr {
 
  .grow img {
  	height: 725px;
- 	width: 265px;
+  width: 265px;
  
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -441,8 +443,8 @@ section ul li hr {
 }
  
 .grow img:hover {
-  width: 280px;
-  height: 766px;
+  height: 764px;
+  width: 277px;
 }
 .pic {
   height: 725px;
@@ -454,14 +456,15 @@ section ul li hr {
 	list-style-type: none;
 	display: block;
 	font-family:"CodeLight";
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
+	padding: 0%;
 }
 #names li{
 	display: inline-block;
-	padding: 3.6em;
+	padding: 4em;
 	margin-left: -2%;
-	margin-top: -10%
+	margin-top: -5%
 }
 #names li a{
 	color:black;
@@ -483,7 +486,7 @@ section ul li hr {
 }
 
 #circles {
-	margin-top: 10%;
+	margin-top: 18%;
 	width: 100%;
 	height:100%;
 	text-align: center;
@@ -494,25 +497,33 @@ section ul li hr {
 	padding: 3em;
 }
 #ctext {
-	margin-top: -60%;
+	margin-top: -55%;
+	margin-left: 2%;
 	text-align: center;
 }
 #ctext li{	
-	padding: 4em;
+	padding: 4.1em;
 	font-size: 1.4em;
 	display: inline-block;
 	list-style-type: none;
 }
+#ctext li a{
+	color: black;
+	font-weight: bold;
+}
+#ctext li a:hover{
+	color: #cc3366;
+}
 #map_canvas {
-	margin-top:2.6%;
+	margin-top: 8em;
     width: 1900px;
-    height: 400px;
+    height: 40em;
     background-color: #CCC;
   }
  #adress li{
  	margin-top: 2%;
  	display:inline-block;
- 	font-size: 1.3em;
+ 	font-size: 1.1em;
  	font-weight: bold;
  }
  #adress li a{
