@@ -2,7 +2,27 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style_projects.css">
 	</head>
-<?php  include ("includes/navigation.php"); ?>
+	<body>
+		<nav>
+			<div id="beg"></div>
+			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
+			<ul id="nav">
+				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.html">Home</a></li>
+				<li><a href="projects...">Projects</a>
+					<ul id="subList">
+						<li><a href="residential.html">Residential</a></li>
+						<li><a href="residential.html">Academic</a></li>
+						<li><a href="residential.html">Office and </br> public</a></li>
+						<li><a href="residential.html">Banks</a></li>
+						<li><a href="residential.html">Hotels</a></li>
+						<li><a href="residential.html">Industrial</a></li>
+						<li><a href="residential.html">Interior</a></li>
+					</ul>
+				</li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.html#names">About us</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.html#contacts">Contacts</a></li>
+			</ul>
+		</nav>
 <?php include_once('Includes'.DIRECTORY_SEPARATOR.'connect.php'); ?>
 <?php
 						// Database queries:
@@ -25,12 +45,14 @@
 							// Image selection:
 							$img = mysqli_query($db,"SELECT * FROM pictures WHERE picture_project =". $current["id"]);
 							$img_info = mysqli_fetch_array($img);
+							echo "<div>";
 							echo "<a href=\"project.php?id=". $current['id']."&category=". $cat_name[0] . "\"> <strong> Name: " . $current["project_name"] . " </strong></a> </br>";
 							
 							
 							echo " <img src = \"project_images/$img_info[0].png\" /> </br>";
 							echo "<code> $img_info[2] </code>";
 							echo "<p> " . $current["project_description"] . " </p> </br> <hr/>";
+							echo "</div>";
 						}
 					
 					?>
