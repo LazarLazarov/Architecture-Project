@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<?php include_once('Includes'.DIRECTORY_SEPARATOR.'connect.php'); ?>
 		<link rel="stylesheet" type="text/css" href="style_projects.css">
 	</head>
 	<body>
@@ -23,7 +24,7 @@
 				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.html#contacts">Contacts</a></li>
 			</ul>
 		</nav>
-<?php include_once('Includes'.DIRECTORY_SEPARATOR.'connect.php'); ?>
+
 <?php
 						// Database queries:
 						$projects = mysqli_query($db,"SELECT * FROM projects WHERE project_category =". $_GET['cat']);
@@ -46,13 +47,13 @@
 							$img = mysqli_query($db,"SELECT * FROM pictures WHERE picture_project =". $current["id"]);
 							$img_info = mysqli_fetch_array($img);
 							echo "<div>";
-							echo "<a href=\"project.php?id=". $current['id']."&category=". $cat_name[0] . "\"> <strong> Name: " . $current["project_name"] . " </strong></a> </br>";
+							echo "<a href=\"project.php?id=". $current['id']."&category=". $cat_name[0] . "\"> <strong> Name: " . $current["project_name"] . " </strong> </br>";
 							
 							
 							echo " <img src = \"project_images/thumb/$img_info[0].png\" /> </br>";
 							echo "<code> $img_info[2] </code>";
 							echo "<p> " . substr($current["project_description"], 0, 256) . "... <i> click to see more </i> </p> </br> <hr/> </a>";
-							echo "</div>";
+							echo " </a> </div>";
 						}
 					
 					?>
