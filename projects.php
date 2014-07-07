@@ -49,9 +49,9 @@
 							echo "<a href=\"project.php?id=". $current['id']."&category=". $cat_name[0] . "\"> <strong> Name: " . $current["project_name"] . " </strong></a> </br>";
 							
 							
-							echo " <img src = \"project_images/$img_info[0].png\" /> </br>";
+							echo " <img src = \"project_images/thumb/$img_info[0].png\" /> </br>";
 							echo "<code> $img_info[2] </code>";
-							echo "<p> " . $current["project_description"] . " </p> </br> <hr/>";
+							echo "<p> " . substr($current["project_description"], 0, 256) . "... <i> click to see more </i> </p> </br> <hr/> </a>";
 							echo "</div>";
 						}
 					
