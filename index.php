@@ -2,6 +2,8 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<link rel="stylesheet" type="text/css" href="style1.css">
+		<script type="text/javascript" src="script.js"></script>
 		<script>
 function initialize() {
 
@@ -24,8 +26,20 @@ function initialize() {
 	</head>
 	
 		<!--<div class="dim"><div></div></div>-->
-		<?php  include ("includes/navigation.php"); ?>
-		<img src="building.jpg" >
+		<body>
+			<img src="http://i.imgur.com/oG7Pz2e.gif" id="pic">
+			<div id="wrapper">
+			<nav>
+			<div id="beg"></div>
+			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
+			<ul id="nav">
+				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg">Home</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#categories">Projects</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#names">About us</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#contacts">Contacts</a></li>
+			</ul>
+		</nav>
+		<img src="building.jpg" id="building" >
 		<section>
 			<div id="ArchDes">Architectural and design agency<hr/></div>
 			
@@ -91,5 +105,7 @@ function initialize() {
 			callbackAfter: function ( toggle, anchor ) {}
 		});
 		</script>
+	</div>
+	<div id="walterwhite"></div>
 	</body>
 </html>

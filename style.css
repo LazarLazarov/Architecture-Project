@@ -89,7 +89,7 @@ nav {
 	position: fixed;
 	top: 250px;	
 }
-body>img {
+#building {
 position: relative;
 width: 100%;
 height: auto;
@@ -342,7 +342,7 @@ nav {
 	position: fixed;
 	top: 250px;	
 }
-body>img {
+#building {
 position: relative;
 width: 100%;
 height: 65%;

@@ -2,6 +2,23 @@
 	<head>
 		<?php include_once('Includes'.DIRECTORY_SEPARATOR.'connect.php'); ?>
 		<link rel="stylesheet" type="text/css" href="style_projects.css">
+		<script type="text/javascript">
+			function clickFunction() {
+				var sublist = document.getElementById("subList");
+				if (sublist.style.display == "none") {
+					sublist.style.display = "inline-block";
+  					sublist.style.position = "absolute";
+  					sublist.style.top = "5%";
+					var iArr = document.getElementsByName("sub");
+  					for (var i = 0; i < iArr.length; i++) {
+  						iArr[i].style.display = "inline-block";
+  					}
+				}
+				else {
+					sublist.style.display = "none";
+				}
+			}
+		</script>
 	</head>
 	<body>
 		<nav>
@@ -9,15 +26,15 @@
 			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
 			<ul id="nav">
 				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.html">Home</a></li>
-				<li><a href="projects...">Projects</a>
+				<li onclick="clickFunction()">Projects
 					<ul id="subList">
-						<li><a href="residential.html">Residential</a></li>
-						<li><a href="residential.html">Academic</a></li>
-						<li><a href="residential.html">Office and </br> public</a></li>
-						<li><a href="residential.html">Banks</a></li>
-						<li><a href="residential.html">Hotels</a></li>
-						<li><a href="residential.html">Industrial</a></li>
-						<li><a href="residential.html">Interior</a></li>
+						<li name="sub"><a href="residential.html">Residential</a></li>
+						<li name="sub"><a href="residential.html">Academic</a></li>
+						<li name="sub"><a href="residential.html">Office and </br> public</a></li>
+						<li name="sub"><a href="residential.html">Banks</a></li>
+						<li name="sub"><a href="residential.html">Hotels</a></li>
+						<li name="sub"><a href="residential.html">Industrial</a></li>
+						<li name="sub"><a href="residential.html">Interior</a></li>
 					</ul>
 				</li>
 				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.html#names">About us</a></li>
