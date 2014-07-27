@@ -2,10 +2,10 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
-		<link rel="stylesheet" type="text/css" href="style1.css">
-		<script type="text/javascript" src="script.js"></script>
-		<script>
-function initialize() {
+		<!--<script type="text/javascript" src="script.js"></script>-->
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+	<script>
+		function initialize() {
 
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
@@ -27,7 +27,8 @@ function initialize() {
 	
 		<!--<div class="dim"><div></div></div>-->
 		<body>
-			<img src="http://i.imgur.com/oG7Pz2e.gif" id="pic">
+			<!--<img src="http://i.imgur.com/oG7Pz2e.gif" id="pic">
+			<div id="walterwhite"></div>-->
 			<div id="wrapper">
 			<nav>
 			<div id="beg"></div>
@@ -39,7 +40,7 @@ function initialize() {
 				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#contacts">Contacts</a></li>
 			</ul>
 		</nav>
-		<img src="building.jpg" id="building" >
+		<img src="3hbot.jpg" id="building" >
 		<section>
 			<div id="ArchDes">Architectural and design agency<hr/></div>
 			
@@ -72,16 +73,16 @@ function initialize() {
 		</ul>
 		<!--end page2-->
 		<ul id="circles" >
-			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
-			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
-			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
-			<li><img class="circular" src="http://38.media.tumblr.com/439d1e71890241d23addafc9790b7eaf/tumblr_n19uihdOa21s1kvj9o1_500.jpg"></li>
+			<li><img class="circular" src="com.png"></li>
+			<li><img class="circular" src="exp.png"></li>
+			<li><img class="circular" src="teh.png"></li>
+			<li><img class="circular" src="car.png"></li>
 		</ul>
 		<ul id="ctext">
 			<li><a class="test" href="#">Company</a></li>
 			<li><a class="test" href="#">Exported</br> Services</a></li>
 			<li><a class="test" href="#">Technology</a></li>
-			<li><a class="test" href="#">Carrers</a></li>
+			<li><a class="test" href="#">Careers</a></li>
 		</ul>
 		<!--end page3-->
 		<div id="map_canvas"></div>
@@ -105,7 +106,5 @@ function initialize() {
 			callbackAfter: function ( toggle, anchor ) {}
 		});
 		</script>
-	</div>
-	<div id="walterwhite"></div>
 	</body>
 </html>
