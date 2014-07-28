@@ -35,8 +35,8 @@
 			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
 			<ul id="nav">
 				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg">Home</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#pro">Projects</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#catex">About us</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#categories">Projects</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#names">About us</a></li>
 				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#contacts">Contacts</a></li>
 			</ul>
 		</nav>
@@ -49,27 +49,27 @@
 			<ul>
 				<li><a href="#">Research &</br> planning</a><hr/></li>
 				<li><a href="#">Design & </br> develpoment</a><hr/></li>
-				<li><a href="#">Management</a><hr id="pro" /></li>
+				<li><a href="#">Management</a><hr/></li>
 			</ul>
 		</section>
 		<!--end page1-->
-		<ul id="cat" >
-			<li><img class="cat" src="res.png"></li>
-			<li><img class="cat" src="aca.png"></li>
-			<li><img class="cat" src="off.png"></li>
-			<li><img class="cat" src="bank.png"></li>
-			<li><img class="cat" src="bed.png"></li>
-			<li><img class="cat" src="fac.png"></li>
-			<li><img class="cat" src="int.png"></li>
+		<ul id="categories">
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=1"><img class="project"  src="Projects1.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=2"><img class="project" src="Projects2.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=3"><img class="project"  id="ProjectsSc" src="Projects3.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=4"><img class="project" src="Projects4.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=5"><img class="project" src="Projects5.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=6"><img class="project" src="Projects6.jpg"></a></div></li>
+			<li><div class="grow pic"><a class="test" href="projects.php?cat=7"><img class="project" src="Projects7.jpg"></a></div></li>
 		</ul>
-		<ul id="catex">
-			<li><a class="catex" href="#">Residential</a></li>
-			<li><a class="catex" href="#">Academic</br> Services</a></li>
-			<li><a class="catex" href="#">Office &</br> public</a></li>
-			<li><a class="catex" href="#">Banks</a></li>
-			<li><a class="catex" href="#">Hotels</a></li>
-			<li><a class="catex" href="#">Industrial</br> Services</a></li>
-			<li><a class="catex" href="#">Interior</a></li>
+		<ul id="names">
+			<li><a class="test" href="#">Residential</a></li>
+			<li><a class="test" href="#">Academic</a></li>
+			<li><a class="test" href="#">Office &</br> public</a></li>
+			<li><a class="test" href="#">Banks</a></li>
+			<li><a class="test" href="#">Hotels</a></li>
+			<li><a class="test" href="#">Industrial</a></li>
+			<li><a class="test" href="#">Interior</a></li>
 		</ul>
 		<!--end page2-->
 		<ul id="circles" >

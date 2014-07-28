@@ -230,7 +230,7 @@ section ul li hr {
 
 }
 #circles {
-	margin-top: 9%;
+	margin-top: 3%;
 	width: 100%;
 	height:100%;
 	text-align: center;
@@ -260,6 +260,68 @@ section ul li hr {
 #ctext li a:hover{
 	color: #cc3366;
 }
+
+.cat {
+	margin-top: 0%;
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.cat:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#cat {
+	margin-top: 15%;
+	margin-left: -4%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#cat li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	width: 200px;
+}
+#catex {
+	margin-left: -0.5%;
+	margin-top: -37%;
+	text-align: center;
+	height:25%;
+}
+#catex li{	
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	width: 200px;
+}
+.catex {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#catex li a{
+	color: black;
+}
+#catex li a:hover{
+	color: #cc3366;
+}
+
+
 #map_canvas {
 	margin-top:7.6%;
     width: 1900px;
@@ -599,8 +661,9 @@ section ul li hr {
 }
 
 }
+}
 /* ---Begins CSS for 1280x800-------------------------------------------------------------------------------- */ 
-@media only screen and (min-width: 1224px) and (max-width: 1280px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px){
 a {
 	text-decoration: none;
 	font-family: "Codelight";
@@ -799,15 +862,79 @@ section ul li hr {
 #names li a:hover {
 	color:#cc3366;
 }
+.cat {
+	margin-top: 0%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.cat:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#cat {
+	margin-top: 15%;
+	margin-left: -4%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#cat li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	width: 100px;
+}
+#catex {
+	margin-left: 3%;
+	margin-top: -40%;
+	text-align: center;
+	height:25%;
+}
+#catex li{	
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	width: 100px;
+}
+.catex {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#catex li a{
+	color: black;
+}
+#catex li a:hover{
+	color: #cc3366;
+}
+
 .circular {
 	margin-top: 0%;
 	width: 200px;
 	height: 200px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
     overflow: auto;
-    transition:all 1s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 
 }
 .circular:hover {
@@ -817,15 +944,10 @@ section ul li hr {
     -moz-transform:scale(1.2); 
     -webkit-transform:scale(1.2); 
     -o-transform:scale(1.2);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
 
+}
 #circles {
-	margin-top: 9%;
+	margin-top: 3%;
 	width: 100%;
 	height:100%;
 	text-align: center;
@@ -836,18 +958,18 @@ section ul li hr {
 	padding: 3em;
 }
 #ctext {
-	margin-top: -37%;
+	margin-top: -35%;
+	text-align: center;
 	width: 100%;
 	height:25%;
-	text-align: center;
 }
 #ctext li{	
-	font-size: 1.2em;
+	font-size: 1.3em;
 	display: inline-block;
 	list-style-type: none;
-	padding: 5.1em;
+	padding: 0.1em;
 	font-weight: bold;
-	width: 100px;
+	width: 296px;
 }
 #ctext li a{
 	color: black;

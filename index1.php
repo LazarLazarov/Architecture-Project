@@ -35,8 +35,8 @@
 			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
 			<ul id="nav">
 				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg">Home</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#pro">Projects</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#catex">About us</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#categories">Projects</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#names">About us</a></li>
 				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#contacts">Contacts</a></li>
 			</ul>
 		</nav>
@@ -49,27 +49,21 @@
 			<ul>
 				<li><a href="#">Research &</br> planning</a><hr/></li>
 				<li><a href="#">Design & </br> develpoment</a><hr/></li>
-				<li><a href="#">Management</a><hr id="pro" /></li>
+				<li><a href="#">Management</a><hr/></li>
 			</ul>
 		</section>
 		<!--end page1-->
 		<ul id="cat" >
-			<li><img class="cat" src="res.png"></li>
-			<li><img class="cat" src="aca.png"></li>
-			<li><img class="cat" src="off.png"></li>
-			<li><img class="cat" src="bank.png"></li>
-			<li><img class="cat" src="bed.png"></li>
-			<li><img class="cat" src="fac.png"></li>
-			<li><img class="cat" src="int.png"></li>
+			<li><img class="cat" src="com.png"></li>
+			<li><img class="cat" src="exp.png"></li>
+			<li><img class="cat" src="teh.png"></li>
+			<li><img class="cat" src="car.png"></li>
 		</ul>
 		<ul id="catex">
-			<li><a class="catex" href="#">Residential</a></li>
-			<li><a class="catex" href="#">Academic</br> Services</a></li>
-			<li><a class="catex" href="#">Office &</br> public</a></li>
-			<li><a class="catex" href="#">Banks</a></li>
-			<li><a class="catex" href="#">Hotels</a></li>
-			<li><a class="catex" href="#">Industrial</br> Services</a></li>
-			<li><a class="catex" href="#">Interior</a></li>
+			<li><a class="catex" href="#">Company</a></li>
+			<li><a class="catex" href="#">Exported</br> Services</a></li>
+			<li><a class="catex" href="#">Technology</a></li>
+			<li><a class="catex" href="#">Careers</a></li>
 		</ul>
 		<!--end page2-->
 		<ul id="circles" >
