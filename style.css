@@ -35,8 +35,8 @@ a {
           	transition: all 2s ease;
 
 }*/
-nav {
-	height:17%;
+#topnav {
+	height: 150px;
 	width: 100%;
 	position: fixed;
 	background-color: #ecf0f1;
@@ -44,7 +44,7 @@ nav {
 }
 #logo {
 	display: inline-block;
-	margin-top:2%;
+	margin-top:1%;
 	margin-left:10%;
 	max-width: 30%;
 	z-index: 0;
@@ -74,7 +74,22 @@ nav {
 #nav li a:hover {
 	color: #cc3366;
 }
+/*#newest {
+	width:250px;
+	background-color: rgba(255,255,255,0.1);
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 230px;
+	z-index: 1000;
+}
+#newest p{
+	font-family: codelight;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+}*/
 #ArchDes{
+	margin-top: 120px;
 	font-family: "Codelight";
 	font-size:1.5em;
 	display:block;
@@ -104,6 +119,7 @@ margin-bottom: 0px;
 	margin-top: 10%;
 	*/
 section {
+	мар
 	position: relative;
 	margin-top:3%;
 	text-align: center;
@@ -121,6 +137,7 @@ hr {
 	width:20%;
 }
 section ul {
+	margin-left: -25px;
 	list-style-type: none;
 	width:100%;
 }
@@ -136,12 +153,11 @@ section ul li hr {
 #categories	{
 	list-style-type: none;
 	margin-top: 10%;
-	padding: 2.11%;
 }
 #categories li {
 	display: inline-block;
-	width: 14%;
-	height: 14%;
+	width: 260px;
+	height: 725px;
 	margin-top: 5%;
 }
 /*#categories li img {
@@ -186,18 +202,19 @@ section ul li hr {
   overflow: hidden;
 
 }
-#names {
+#names	{
+	width: 100%;
+	margin-left: 65px;
+	margin-top: -70px;
 	list-style-type: none;
-	display: block;
-	font-family:"CodeLight";
-	font-size: 1.5em;
-	font-weight: bold;
 }
-#names li{
+#names li {
+	font-weight: bold;
+	font-size: 1.5em;
 	display: inline-block;
-	padding: 3.6em;
-	margin-left: -2%;
-	margin-top: -10%
+	width: 260px;
+	height: 14%;
+	margin-top: 5%;
 }
 #names li a{
 	color:black;
@@ -692,8 +709,8 @@ a {
           	transition: all 2s ease;
 
 }*/
-nav {
-	height:17%;
+#topnav {
+	height: 120px;
 	width: 100%;
 	position: fixed;
 	background-color: #ecf0f1;
@@ -714,7 +731,7 @@ nav {
 	list-style-type: none;
 	font-weight: 900;
 	max-width: 50%;
-	margin-top:-5%;
+	margin-top:-4%;
 	margin-left:auto;
 	margin-right:5%;
 }
@@ -732,8 +749,9 @@ nav {
 	color: #cc3366;
 }
 #ArchDes{
+	margin-top: 90px;
 	font-family: "Codelight";
-	font-size:1.5em;
+	font-size:1.1em;
 	display:block;
 	font-weight: bold;
 	text-align: center;
@@ -778,10 +796,13 @@ hr {
 	width:20%;
 }
 section ul {
+	margin-left: -20px;
+	margin-top: -10px;
 	list-style-type: none;
 	width:100%;
 }
 section ul li {
+	font-size: 0.8em;
 	display: inline-block;
 	padding-left:10%;
 	padding-right:10%;

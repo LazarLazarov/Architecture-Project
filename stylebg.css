@@ -1,60 +1,103 @@
 body {
-	background-color:#ecf0f1 ;
-	margin:0;
-	padding: 0;
-	overflow-x:hidden;
-	overflow-y:hidden;
+  background-color:#ecf0f1 ;
+  margin:0;
+  padding: 0;
+  overflow-x:hidden;
+  overflow-y:scroll;
 }
 /* ---Begins CSS for 1920x1080--------------------------------------------------------------------------------*/ 
-@media all and (min-width:1920px){
+@media only screen and (min-width : 1824px) {
 a {
-	text-decoration: none;
-	font-family: "DejaVu";
+  text-decoration: none;
+  font-family: "DejaVu";
 }
+/*.dim
+{
+      height:100%;
+      width:100%;
+      position:fixed;
+      left:0;
+      top:0;
+      z-index:2000;
+      background-color:#ecf0f1;
+      opacity: 1;
+
+}
+.dim:hover
+{
+      opacity: 0;
+      width: 0%;
+      height: 0%;
+      -webkit-transition: all 1s ease;
+        -moz-transition: all 2s ease;
+          -o-transition: all 2s ease;
+          -ms-transition: all 2s ease;
+            transition: all 2s ease;
+
+}*/
 nav {
-	height:17%;
-	width: 100%;
-	position: fixed;
-	background-color: #ecf0f1;
-	z-index: 100;
+  height:17%;
+  width: 100%;
+  position: fixed;
+  background-color: #ecf0f1;
+  z-index: 100;
 }
 #logo {
-	display: inline-block;
-	margin-top:2%;
-	margin-left:10%;
-	max-width: 30%;
-	z-index: 0;
+  display: inline-block;
+  margin-top:2%;
+  margin-left:10%;
+  max-width: 30%;
+  z-index: 0;
 }
 @font-face {
     font-family: DejaVu;
     src: url(DejaVuSans.ttf);
 }
 #nav {
-	list-style-type: none;
-	max-width: 50%;
-	margin-top:-4%;
-	margin-left:auto;
-	margin-right:5%;
+  list-style-type: none;
+  max-width: 50%;
+  margin-top:-4%;
+  margin-left:auto;
+  margin-right:5%;
 }
 #nav li {
-	display: inline-block;
-	font-family: "DejaVu";
-	padding: 2%;
+  display: inline-block;
+  font-family: "DejaVu";
+  padding: 2%;
 }
 #nav li a, section a {
-	color:black;
-	font-size:1.2em;
+  color:black;
+  font-size:1.3em;
 }
 #nav li a:hover {
-	color: #cc3366;
+  color: #cc3366;
 }
-#ArchDes{
-	font-family: "DejaVu";
-	font-size:1.5em;
-	display:block;
-	text-align: center;
+#ArchDes {
+  font-family: "DejaVu";
+  font-size:1.5em;
+  display:block;
+  text-align: center;
 }
-body>img {
+#underText {
+margin-top: -15px;
+  margin-left: -35px;
+  text-align: center;
+}
+#underText li {
+  font-family: "DejaVu";
+  font-size:1em;
+  display:block;
+  display: inline-block;
+}
+
+/*
+  This is temporary Projects.php css;
+*/
+#CatContainer{
+  position: fixed;
+  top: 250px; 
+}
+#building {
 position: relative;
 width: 100%;
 height: auto;
@@ -62,88 +105,75 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 /*
-	position: relative;
-	display:inline-block;
-	width:100%;
-	height:50%;
-	margin-top: 10%;
-	*/
+  position: relative;
+  display:inline-block;
+  width:100%;
+  height:50%;
+  margin-top: 10%;
+  */
 section {
-	position: relative;
-	margin-top:3%;
-	text-align: center;
+  position: relative;
+  margin-top:3%;
+  text-align: center;
 }
 section a:hover{
-	color: #cc3366;
+  color: #cc3366;
 }
 section a {
-	font-size:1.5em;
-	display:block;
-	text-align: center;
+  font-size:1.5em;
+  display:block;
+  text-align: center;
 }
 hr {
-	width:20%;
+  width:20%;
 }
 section ul {
-	list-style-type: none;
+  list-style-type: none;
+  width:100%;
 }
 section ul li {
-	display: inline-block;
-	padding-left:10%;
-	padding-right:10%;
+  display: inline-block;
+  padding-left:10%;
+  padding-right:10%;
 }
 section ul li hr {
-	width:100px;
+  width:100px;
 }
 
-#categories	{
-	list-style-type: none;
-	margin-top: 10%;
+#categories {
+  list-style-type: none;
+  margin-top: 10%;
 }
 #categories li {
-	display: inline-block;
-	width: 14%;
-	height: 14%;
-	margin-top: 8%;
-	margin-left: -10%;
+  display: inline-block;
+  width: 260px;
+  height: 725px;
+  margin-top: 5%;
 }
 /*#categories li img {
-	display: block;
-	text-align: center;
+  display: block;
+  text-align: center;
 }*/
 /*#projects {
-	display:inline-block;
-	width:98%;
-	height:60%;
-	margin-top: -5%;
+  display:inline-block;
+  width:98%;
+  height:60%;
+  margin-top: -5%;
 }*/
-/*#categories li div{	
-	margin-top: 2%;
-	display: inline-block;
-	list-style-type: none;
-	font-family: "Codelight";
-	font-weight:bold;
-	font-size: 1.5em;
+/*#categories li div{ 
+  margin-top: 2%;
+  display: inline-block;
+  list-style-type: none;
+  font-family: "DejaVu";
+  font-weight:bold;
+  font-size: 1.5em;
 
 }*/
 
-.circular:hover {
-    cursor: pointer;
-    transform:scale(1.2);
-    -ms-transform:scale(1.2); 
-    -moz-transform:scale(1.2); 
-    -webkit-transform:scale(1.2); 
-    -o-transform:scale(1.2);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
 
- .grow img {
- 	height: 725px;
- 	width: 265px;
+.grow img {
+  height: 725px;
+  width: 265px;
  
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -162,199 +192,329 @@ section ul li hr {
   overflow: hidden;
 
 }
-#names {
-	list-style-type: none;
-	display: block;
-	font-family:"DejaVu";
-	font-size: 1.5em;
+#names  {
+  width: 100%;
+  margin-left: 65px;
+  margin-top: -70px;
+  list-style-type: none;
 }
-#names li{
-	display: inline-block;
-	padding: 3.65em;
-	margin-left: -2%;
-	margin-top: -10%
+#names li {
+  font-size: 1.5em;
+  display: inline-block;
+  width: 260px;
+  height: 14%;
+  margin-top: 5%;
 }
 #names li a{
-	color:black;
+  color:black;
 }
 #names li a:hover {
-	color:#cc3366;
+  color:#cc3366;
 }
 .circular {
-	margin-top: 0%;
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	-moz-box-shadow:    inset 3px 3px 5px 6px #ccc;
-  	-webkit-box-shadow: inset 3px 3px 5px 6px #ccc;
-  	box-shadow:         inset 3px 3px 5px 6px #ccc;
+  margin-top: 0%;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 
 }
+.circular:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
 
+}
 #circles {
-	margin-top: 9%;
-	width: 100%;
-	height:100%;
-	text-align: center;
+  margin-top: 3%;
+  width: 100%;
+  height:100%;
+  text-align: center;
 }
 #circles li{
-	display: inline-block;
-	list-style-type: none;
-	padding: 3em;
+  display: inline-block;
+  list-style-type: none;
+  padding: 3em;
 }
 #ctext {
-	margin-top: -35%;
-	text-align: center;
+  margin-top: -35%;
+  text-align: center;
+  width: 100%;
+  height:25%;
 }
-#ctext li{	
-	padding: 5.7em;
-	font-size: 1.5em;
-	display: inline-block;
-	list-style-type: none;
+#ctext li{  
+  font-size: 1.5em;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.1em;
+  width: 396px;
 }
 #ctext li a{
-	color: black;
+  color: black;
 }
 #ctext li a:hover{
-	color: #cc3366;
+  color: #cc3366;
 }
+
+.cat {
+  margin-top: 0%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.cat:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#cat {
+  margin-top: 15%;
+  margin-left: -4%;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+#cat li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 2em;
+  width: 200px;
+}
+#catex {
+  margin-left: -0.5%;
+  margin-top: -37%;
+  text-align: center;
+  height:25%;
+}
+#catex li{  
+  display: inline-block;
+  list-style-type: none;
+  padding: 2em;
+  width: 200px;
+}
+.catex {
+  font-size: 1.5em;
+}
+#catex li a{
+  color: black;
+}
+#catex li a:hover{
+  color: #cc3366;
+}
+
+
 #map_canvas {
-	margin-top:3.5%;
+  margin-top:7.6%;
     width: 1900px;
     height: 400px;
     background-color: #CCC;
   }
  #adress li{
- 	margin-top: 2%;
- 	display:inline-block;
- 	font-size: 1.3em;
+  margin-top: 2%;
+  display:inline-block;
+  font-size: 1.5em;
+  padding: 4em;
  }
  #adress li a{
- 	color: black;
- 	padding: 3em;
+  color: black;
  }
+#wrapper {
+  display: none;
 }
+#pic {
+  width:40%;
+  display: block;
+  margin:0 auto;
+  position: fixed;
+  top:50%;
+  left:31%;
+    transform: translateY(-50%);
+    z-index:    1001;
+    opacity:    1;
+}
+#walterwhite {
+  opacity:    1; 
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+#wrapper {
+  display: block; /*change to none*/
+}
+#pic {
+  width:40%;
+  display: block;
+  margin:0 auto;
+  position: fixed;
+  top:50%;
+  left:31%;
+    transform: translateY(-50%);
+    z-index:    1001;
+    opacity:    1;
+}
+#walterwhite {
+  opacity:    0;  /* change to 1*/
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+
 /* ---Begins CSS for 1280x1024-------------------------------------------------------------------------------- */ 
 
-@media all and (min-width:800px) and (max-width:1280px) {
+@media screen and (min-aspect-ratio: 5/4) and (max-aspect-ratio: 16/9){
 a {
-	text-decoration: none;
-	font-family: "DejaVu";
+  text-decoration: none;
+  font-family: "DejaVu";
 }
 nav {
-	height:17%;
-	width: 100%;
-	position: fixed;
-	background-color: #ecf0f1;
-	z-index: 100;
+  height:12%;
+  width: 100%;
+  position: fixed;
+  background-color: #ecf0f1;
+  z-index: 100;
 }
 #logo {
-	display: inline-block;
-	margin-top:2%;
-	margin-left:10%;
-	max-width: 30%;
-	z-index: 0;
+  display: inline-block;
+  margin-top:2%;
+  margin-left:10%;
+  max-width: 23%;
+  z-index: 0;
 }
 @font-face {
     font-family: DejaVu;
-    src: url(DejaVuSans.ttf);
+    src: url(code_light.otf);
 }
 #nav {
-	list-style-type: none;
-	max-width: 50%;
-	margin-top:-4%;
-	margin-left:auto;
-	margin-right:5%;
+  list-style-type: none;
+  max-width: 50%;
+  margin-top:-4%;
+  margin-left:auto;
+  margin-right:5%;
 }
 #nav li {
-	display: inline-block;
-	font-family: "DejaVu";
-	padding: 0.85%;
+  display: inline-block;
+  font-family: "DejaVu";
+  padding: 0.85%;
 }
 #nav li a, section a {
-	color:black;
-	font-size:1.2em;
+  color:black;
+  font-size:1.0em;
 }
 #nav li a:hover {
-	color: #cc3366;
+  color: #cc3366;
 }
 #ArchDes{
-	font-family: "DejaVu";
-	font-size:1.5em;
-	display:block;
-	text-align: center;
+  font-family: "DejaVu";
+  font-size:1.5em;
+  display:block;
+  text-align: center;
 }
-body>img {
+/*
+  This is temporary Projects.php css;
+*/
+#CatContainer{
+  position: fixed;
+  top: 250px; 
+}
+#building {
 position: relative;
 width: 100%;
-height: auto;
+height: 65%;
 margin-top: 0px;
 margin-bottom: 0px;
 }
 /*
-	position: relative;
-	display:inline-block;
-	width:100%;
-	height:50%;
-	margin-top: 10%;
-	*/
+  position: relative;
+  display:inline-block;
+  width:100%;
+  height:50%;
+  margin-top: 10%;
+  */
 section {
-	position: relative;
-	margin-top:3%;
-	text-align: center;
+  position: relative;
+  margin-top:6%;
+  text-align: center;
 }
 section a:hover{
-	color: #cc3366;
+  color: #cc3366;
 }
 section a {
-	font-size:1.5em;
-	display:block;
-	text-align: center;
+  font-size:1.3em;
+  display:block;
+  text-align: center;
 }
 hr {
-	width:20%;
+  width:20%;
 }
 section ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 section ul li {
-	display: inline-block;
-	padding-left:10%;
-	padding-right:10%;
+  display: inline-block;
 }
 section ul li hr {
-	width:100px;
+  width:100px;
 }
 
-#categories	{
-	list-style-type: none;
-	margin-top: 10%;
+#categories {
+  list-style-type: none;
+  margin-top: 10%;
 }
 #categories li {
-	display: inline-block;
-	width: 14%;
-	height: 14%;
-	margin-top: 8%;
+  display: inline-block;
+  width: 14%;
+  height: 14%;
+  margin-top: 8%;
+
 }
 /*#categories li img {
-	display: block;
-	text-align: center;
+  display: block;
+  text-align: center;
 }*/
 /*#projects {
-	display:inline-block;
-	width:98%;
-	height:60%;
-	margin-top: -5%;
+  display:inline-block;
+  width:98%;
+  height:60%;
+  margin-top: -5%;
 }*/
-/*#categories li div{	
-	margin-top: 2%;
-	display: inline-block;
-	list-style-type: none;
-	font-family: "Codelight";
-	font-weight:bold;
-	font-size: 1.5em;
+/*#categories li div{ 
+  margin-top: 2%;
+  display: inline-block;
+  list-style-type: none;
+  font-family: "DejaVu";
+  font-weight:bold;
+  font-size: 1.5em;
 
 }*/
 
@@ -373,8 +533,8 @@ section ul li hr {
 }
 
  .grow img {
- 	height: 725px;
- 	width: 265px;
+  height: 725px;
+  width: 265px;
  
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -384,8 +544,8 @@ section ul li hr {
 }
  
 .grow img:hover {
-  width: 280px;
-  height: 766px;
+  height: 764px;
+  width: 277px;
 }
 .pic {
   height: 725px;
@@ -394,70 +554,469 @@ section ul li hr {
 
 }
 #names {
-	list-style-type: none;
-	display: block;
-	font-family:"DejaVu";
-	font-size: 1.5em;
+  list-style-type: none;
+  display: block;
+  font-family:"DejaVu";
+  font-size: 1em;
+  padding: 0%;
 }
 #names li{
-	display: inline-block;
-	padding: 3.6em;
-	margin-left: -2%;
-	margin-top: -10%
+  display: inline-block;
+  padding: 4em;
+  margin-left: -2%;
+  margin-top: -5%
 }
 #names li a{
-	color:black;
+  color:black;
 }
 #names li a:hover {
-	color:#cc3366;
+  color:#cc3366;
 }
 .circular {
-	margin-top: 0%;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	-moz-box-shadow:    inset 3px 3px 5px 6px #ccc;
-  	-webkit-box-shadow: inset 3px 3px 5px 6px #ccc;
-  	box-shadow:         inset 3px 3px 5px 6px #ccc;
+  margin-top: 0%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -moz-box-shadow:    inset 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: inset 3px 3px 5px 6px #ccc;
+    box-shadow:         inset 3px 3px 5px 6px #ccc;
 
 }
 
 #circles {
-	margin-top: 10%;
-	width: 100%;
-	height:100%;
-	text-align: center;
+  margin-top: 18%;
+  width: 100%;
+  height:100%;
+  text-align: center;
 }
 #circles li{
-	display: inline-block;
-	list-style-type: none;
-	padding: 3em;
+  display: inline-block;
+  list-style-type: none;
+  padding: 3em;
 }
 #ctext {
-	margin-top: -60%;
-	text-align: center;
+  margin-top: -55%;
+  margin-left: 2%;
+  text-align: center;
 }
-#ctext li{	
-	padding: 4em;
-	font-size: 1.4em;
-	display: inline-block;
-	list-style-type: none;
+#ctext li{  
+  padding: 4.1em;
+  font-size: 1.4em;
+  display: inline-block;
+  list-style-type: none;
+}
+#ctext li a{
+  color: black;
+}
+#ctext li a:hover{
+  color: #cc3366;
 }
 #map_canvas {
-	margin-top:2.6%;
+  margin-top: 8em;
     width: 1900px;
-    height: 400px;
+    height: 40em;
     background-color: #CCC;
   }
  #adress li{
- 	margin-top: 2%;
- 	display:inline-block;
- 	font-size: 1.3em;
+  margin-top: 2%;
+  display:inline-block;
+  font-size: 1.1em;
  }
  #adress li a{
- 	color: black;
- 	padding: 3em;
+  color: black;
+  padding: 3em;
  }
+ #wrapper {
+  display: block; /*change to none*/
+}
+#pic {
+  width:40%;
+  display: block;
+  margin:0 auto;
+  position: fixed;
+  top:50%;
+  left:31%;
+    transform: translateY(-50%);
+    z-index:    1001;
+    opacity:    1;
+}
+#walterwhite {
+  opacity:    0;  /* change to 1*/
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+
+}
+}
+/* ---Begins CSS for 1280x800-------------------------------------------------------------------------------- */ 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1280px){
+a {
+  text-decoration: none;
+  font-family: "DejaVu";
+}
+/*.dim
+{
+      height:100%;
+      width:100%;
+      position:fixed;
+      left:0;
+      top:0;
+      z-index:2000;
+      background-color:#ecf0f1;
+      opacity: 1;
+
+}
+.dim:hover
+{
+      opacity: 0;
+      width: 0%;
+      height: 0%;
+      -webkit-transition: all 1s ease;
+        -moz-transition: all 2s ease;
+          -o-transition: all 2s ease;
+          -ms-transition: all 2s ease;
+            transition: all 2s ease;
+
+}*/
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #ecf0f1;
+  z-index: 100;
+}
+#logo {
+  display: inline-block;
+  margin-top:1%;
+  margin-left:10%;
+  max-width: 30%;
+  z-index: 0;
+}
+@font-face {
+    font-family: DejaVu;
+    src: url(DejaVuSans.ttf);
+}
+#nav {
+  list-style-type: none;
+  max-width: 50%;
+  margin-top:-5%;
+  margin-left:auto;
+  margin-right:5%;
+}
+#nav {
+  list-style-type: none;
+  max-width: 50%;
+  margin-top:-4%;
+  margin-left:auto;
+  margin-right:5%;
+}
+#nav li {
+  display: inline-block;
+  font-family: "DejaVu";
+  padding: 2%;
+}
+#nav li a, section a {
+  color:black;
+  font-size:1.3em;
+}
+#nav li a:hover {
+  color: #cc3366;
+}
+#ArchDes{
+  font-family: "DejaVu";
+  font-size:1.5em;
+  display:block;
+  text-align: center;
+}
+
+/*
+  This is temporary Projects.php css;
+*/
+#CatContainer{
+  position: fixed;
+  top: 250px; 
+}
+#building {
+position: relative;
+width: 100%;
+height: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+#underText {
+margin-top: -15px;
+  margin-left: -35px;
+  text-align: center;
+}
+#underText li {
+  font-family: "DejaVu";
+  font-size:1em;
+  display:block;
+  display: inline-block;
+}
+/*
+  position: relative;
+  display:inline-block;
+  width:100%;
+  height:50%;
+  margin-top: 10%;
+  */
+section {
+  position: relative;
+  margin-top:3%;
+  text-align: center;
+}
+section a:hover{
+  color: #cc3366;
+}
+section a {
+  font-size:1.5em;
+  display:block;
+  text-align: center;
+}
+hr {
+  width:20%;
+}
+section ul {
+	margin-left: -120px;
+	list-style-type: none;
+	width:100%;
+}
+section ul li {
+	margin-top: 50px;
+  display: inline-block;
+  padding-left:170px;
+}
+section ul li hr {
+  width:100px;
+}
+
+#categories {
+  list-style-type: none;
+  margin-top: 10%;
+  padding: 2.11%;
+}
+#categories li {
+  display: inline-block;
+  width: 14%;
+  height: 14%;
+  margin-top: 5%;
+}
+/*#categories li img {
+  display: block;
+  text-align: center;
+}*/
+/*#projects {
+  display:inline-block;
+  width:98%;
+  height:60%;
+  margin-top: -5%;
+}*/
+/*#categories li div{ 
+  margin-top: 2%;
+  display: inline-block;
+  list-style-type: none;
+  font-family: "DejaVu";
+  font-weight:bold;
+  font-size: 1.5em;
+
+}*/
+
+
+.grow img {
+  height: 515px;
+  width: 188px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  height: 535px;
+  width: 196px;
+}
+.pic {
+  height: 515px;
+  width: 188px;
+  overflow: hidden;
+
+}
+#names {
+  list-style-type: none;
+  display: block;
+  font-family:"DejaVu";
+  font-size: 1.2em;
+}
+#names li{
+  display: inline-block;
+  padding: 2.78em;
+  margin-left: -2%;
+  margin-top: -10%
+}
+#names li a{
+  color:black;
+}
+#names li a:hover {
+  color:#cc3366;
+}
+.cat {
+  margin-top: 0%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.cat:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#cat {
+  margin-top: 15%;
+  margin-left: -4%;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+#cat li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 2em;
+  width: 100px;
+}
+#catex {
+  margin-left: 3%;
+  margin-top: -40%;
+  text-align: center;
+  height:25%;
+}
+#catex li{  
+  display: inline-block;
+  list-style-type: none;
+  padding: 2em;
+  width: 100px;
+}
+.catex {
+  font-size: 1.2em;
+}
+#catex li a{
+  color: black;
+}
+#catex li a:hover{
+  color: #cc3366;
+}
+
+.circular {
+  margin-top: 0%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.circular:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#circles {
+  margin-top: 3%;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+#circles li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 3em;
+}
+#ctext {
+  margin-top: -35%;
+  text-align: center;
+  width: 100%;
+  height:25%;
+}
+#ctext li{  
+  font-size: 1.3em;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0.1em;
+  width: 296px;
+}
+#ctext li a{
+  color: black;
+}
+#ctext li a:hover{
+  color: #cc3366;
+}
+#map_canvas {
+  margin-top:10%;
+    width: 1270px;
+    height: 330px;
+    background-color: #CCC;
+  }
+ #adress li{
+  margin-top: 2%;
+  display:inline-block;
+  font-size: 1.3em;
+  padding: 2em;
+ }
+ #adress li a{
+  color: black;
+ }
+#wrapper {
+  display: block; /*change to none*/
+}
+#pic {
+  width:40%;
+  display: block;
+  margin:0 auto;
+  position: fixed;
+  top:50%;
+  left:31%;
+    transform: translateY(-50%);
+    z-index:    1001;
+    opacity:    1;
+}
+#walterwhite {
+  opacity:    0;  /* change to 1*/
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
 }
