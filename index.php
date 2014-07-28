@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<link rel="shortcut icon" href="icon.ico" >
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<!--<script type="text/javascript" src="script.js"></script>-->
