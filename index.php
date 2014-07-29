@@ -3,7 +3,7 @@
 		<link rel="shortcut icon" href="icon.ico" >
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
-		<!--<script type="text/javascript" src="script.js"></script>-->
+		<script type="text/javascript" src="script.js"></script>
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
 		<link rel="shortcut icon" href="../favicon.ico">
 		<!--<link rel="stylesheet" type="text/css" href="css/default.css" />-->
@@ -16,7 +16,7 @@
         var map_canvas = document.getElementById('map_canvas');
         var map_options = {
           center: new google.maps.LatLng(42.677056,23.310686),
-          zoom: 14,
+          zoom: 20,
           scrollwheel: false,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
@@ -33,9 +33,8 @@
 	
 		<!--<div class="dim"><div></div></div>-->
 		<body>
-			<!--<img src="http://i.imgur.com/oG7Pz2e.gif" id="pic">
-			<div id="walterwhite"></div>-->
-			<div id="wrapper">
+			<img src="http://i.imgur.com/oG7Pz2e.gif" id="pic">
+			<div id="walterwhite"></div>
 		<nav id="topnav">
 			<div id="beg"></div>
 			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
@@ -51,7 +50,7 @@
 		<!--<img src="3hbot.jpg" id="building" >-->
 <div id="cbp-fwslider" class="cbp-fwslider">
     <ul>
-        <li><a href="#"><img src="3.jpg" alt="img01"/></a></li>
+        <li><a href="project3.php"><img src="3.jpg" alt="img01"/></a></li>
         <li><a href="#"><img src="2.jpg" alt="img02"/></a></li>
         <li><a href="#"><img src="1.jpg" alt="img03"/></a></li>
         <li><a href="#"><img src="4.jpg" alt="img04"/></a></li>
@@ -71,13 +70,13 @@
 		</section>
 		<!--end page1-->
 		<ul id="cat" >
-			<li><img class="cat" src="res.png"></li>
-			<li><img class="cat" src="aca.png"></li>
-			<li><img class="cat" src="off2.png"></li>
-			<li><img class="cat" src="bank2.png"></li>
-			<li><img class="cat" src="hotel.png"></li>
-			<li><img class="cat" src="fac.png"></li>
-			<li><img class="cat" src="int.png"></li>
+			<li><a href="projects2.php"><img class="cat" src="res.png"></a></li>
+			<li><a href=""><img class="cat" src="aca.png"></a></li>
+			<li><a href=""><img class="cat" src="off2.png"></a></li>
+			<li><a href=""><img class="cat" src="bank2.png"></a></li>
+			<li><a href=""><img class="cat" src="hotel.png"></a></li>
+			<li><a href=""><img class="cat" src="fac.png"></a></li>
+			<li><a href=""><img class="cat" src="int.png"></a></li>
 		</ul>
 		<ul id="catex">
 			<li><a class="catex" href="#">Residential</a></li>

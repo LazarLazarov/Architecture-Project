@@ -33,20 +33,20 @@
 		<nav>
 			<div id="beg"></div>
 				<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>			<ul id="nav">
-				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.html">Home</a></li>
+				<li><a a data-scroll data-options="easing: easeInOutQuart" href="index.php">Home</a></li>
 				<li onclick="clickFunction()">Projects
 					<ul id="subList">
-						<li name="sub"><a href="residential.html">Residential</a></li>
-						<li name="sub"><a href="residential.html">Academic</a></li>
-						<li name="sub"><a href="residential.html">Office & public</a></li>
-						<li name="sub"><a href="residential.html">Banks</a></li>
-						<li name="sub"><a href="residential.html">Hotels</a></li>
-						<li name="sub"><a href="residential.html">Industrial</a></li>
-						<li name="sub"><a href="residential.html">Interior</a></li>
+						<li name="sub"><a href="projects.php?cat=1">Residential</a></li>
+						<li name="sub"><a href="projects.php?cat=2">Academic</a></li>
+						<li name="sub"><a href="projects.php?cat=3">Office & public</a></li>
+						<li name="sub"><a href="projects.php?cat=4">Banks</a></li>
+						<li name="sub"><a href="projects.php?cat=5">Hotels</a></li>
+						<li name="sub"><a href="projects.php?cat=6">Industrial</a></li>
+						<li name="sub"><a href="projects.php?cat=7">Interior</a></li>
 					</ul>
 				</li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.html#names">About us</a></li>
-				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.html#contacts">Contacts</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#names">About us</a></li>
+				<li><a data-scroll data-options="easing: easeInOutQuart" href="index.php#contacts">Contacts</a></li>
 			</ul>
 		</nav>
 
@@ -109,8 +109,8 @@
                         <input type="checkbox" id="show-description-1"/>
                         <label for="show-description-1" class="show-description-label">v</label>
                         <div class="description-text">
-                            <h2>Flower power</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                            <h2><a href="project1.php">Balnea Hills, 2007</a></h2>
+                            <p>Residential complex with shops, swimming pool, SPA and underground garages situated Karpuzitsa, Sofia</p>
                         </div>
                     </div>
                 </li>
@@ -120,41 +120,41 @@
                         <input type="checkbox" id="show-description-2"/>
                         <label for="show-description-2" class="show-description-label">v</label>
                         <div class="description-text">
-                            <h2>Golden sunset</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                            <h2><a href="project2.php">Residential Complex Pirin, 2007</a></h2>
+                            <p>Residential complex contains three buildings with underground garages situated Pavlovo-Bukston, Sofia</p>
                         </div>
                     </div>
                 </li>
                 <li id="slide3">
-                    <img src="http://cssdeck.com/uploads/media/items/0/00kih8g.jpg" />
+                    <img src="project_images\thumb\3.jpg" />
                     <div class="description">
                         <input type="checkbox" id="show-description-3"/>
                         <label for="show-description-3" class="show-description-label">v</label>
                         <div class="description-text">
-                            <h2>Flower power again</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                            <h2><a href="project3.php">Helena Village, Elena</a></h2>
+                            <p>HELENA VILLAGE, complex of 17 private houses, near lake Donkovtsi in the Balkan Mountain, Elena town.</p>
                         </div>
                     </div>
                 </li>
                 <li id="slide4">
-                    <img src="http://cssdeck.com/uploads/media/items/2/2rT2vdx.jpg" />
+                    <img src="project_images\thumb\4.jpg" />
                     <div class="description">
                         <input type="checkbox" id="show-description-4"/>
                         <label for="show-description-4" class="show-description-label">v</label>
                         <div class="description-text">
-                            <h2>Stormy coast</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                            <h2><a href="project4.php">House Bulgarevo</a></h2>
+                            <p>Private house situated near by the sea in Bulgarevo village</p>
                         </div>
                     </div>
                 </li>
                 <li id="slide5">
-                    <img src="http://cssdeck.com/uploads/media/items/8/8k3N3EL.jpg" />
+                    <img src="project_images\thumb\5.jpg" />
                     <div class="description">
                         <input type="checkbox" id="show-description-5"/>
                         <label for="show-description-5" class="show-description-label">v</label>
                         <div class="description-text">
-                            <h2>Splash!</h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+                            <h2><a href="project5.php">Residential bulding, Bansko</a></h2>
+                            <p>Residential building with restaurant and shops, Glazne str., Bansko</p>
                         </div>
                     </div>
                 </li>

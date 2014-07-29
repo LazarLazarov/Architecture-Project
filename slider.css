@@ -165,11 +165,12 @@ input[type=radio]#button-2:checked~.arrows#arrow-1, input[type=radio]#button-3:c
     transform: scaleX(-1);
 }
 
-input[type=radio]#button-2:checked~.arrows#arrow-1 { left: -26px }
+input[type=radio]#button-2:checked~.arrows#arrow-1 { left: -45px }
 
-input[type=radio]#button-3:checked~.arrows#arrow-2 { left: -44px }
+input[type=radio]#button-3:checked~.arrows#arrow-2 { left: -63px }
+input[type=radio]#button-4:checked~.arrows#arrow-3 { left: -80px }
 
-input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -80px }
+input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -100px }
 
 .description {
     position: absolute;

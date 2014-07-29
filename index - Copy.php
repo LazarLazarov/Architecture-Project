@@ -30,7 +30,7 @@
 			<!--<img src="http://i.imgur.com/oG7Pz2e.gif" id="pic">
 			<div id="walterwhite"></div>-->
 			<div id="wrapper">
-			<nav>
+			<nav id="topnav">
 			<div id="beg"></div>
 			<a data-scroll data-options="easing: easeInOutQuart" href="index.php#beg"><img id="logo" src="logo.png"></a>
 			<ul id="nav">

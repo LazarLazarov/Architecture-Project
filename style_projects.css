@@ -2,6 +2,13 @@
     font-family: Codelight;
     src: url(code_light.otf);
 }
+a {
+	text-decoration: none;
+	color:black;
+}
+a:hover {
+	text-decoration: underline;
+}
 #logo {
 	width: 77%;
 	margin-left: 6%;
