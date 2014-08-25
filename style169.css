@@ -1,11 +1,13 @@
+/* ---Begins CSS for 1920x1080--------------------------------------------------------------------------------*/ 
+@media only screen and (min-width : 1824px) {
 body {
 	background-color:#ecf0f1 ;
 	margin:0;
 	padding: 0;
 	overflow-x:hidden;
+	overflow-y:scroll;
 }
-/* ---Begins CSS for 1920x1080--------------------------------------------------------------------------------*/ 
-@media only screen and (min-width : 1824px) {
+
 a {
 	text-decoration: none;
 	font-family: "Codelight";
@@ -33,18 +35,6 @@ a {
       		-ms-transition: all 2s ease;
           	transition: all 2s ease;
 
-}*/
-.fancybox-custom .fancybox-skin {
-			box-shadow: 0 0 50px #222;
-		}
-.namers {
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-top: 50px;
-		color: black;
-}
-/*.namers:hover{
-	color:#cc3366; 
 }*/
 #topnav {
 	height: 150px;
@@ -78,7 +68,7 @@ a {
 	font-weight: 550;
 	padding: 2%;
 }
-.nav a{
+#nav li a, section a {
 	color:black;
 	font-size:1.2em;
 }
@@ -99,34 +89,6 @@ a {
 	font-size: 1.3em;
 	text-align: center;
 }*/
-#red a{
-	color: #cc3366;
-	font-size: 1.1em;
-}
-#red2 a{
-	color: #cc3366;
-	font-size: 1.2em;
-}
-#mininav {
-	list-style-type: none;
-	font-weight: 900;
-	max-width: 80%;
-	margin-top:-30px;
-	margin-left:750px;
-}
-#mininav li {
-	display: inline-block;
-	font-family: "Codelight";
-	font-weight: 550;
-	padding: 1%;
-}
-.mininav a{
-	color:black;
-	font-size:1.1em;
-}
-#mininav li a:hover {
-	color: #cc3366;
-}
 #ArchDes{
 	margin-top: 120px;
 	font-family: "Codelight";
@@ -158,6 +120,7 @@ margin-bottom: 0px;
 	margin-top: 10%;
 	*/
 section {
+	мар
 	position: relative;
 	margin-top:3%;
 	text-align: center;
@@ -394,7 +357,7 @@ section ul li hr {
  	color: black;
  }
 #wrapper {
-	display: none;
+	display: block;
 }
 #pic {
 	width:40%;
@@ -418,7 +381,7 @@ section ul li hr {
   position:   fixed; 
 }
 #wrapper {
-	display: block; /*change to none*/
+	display: none; /*change to none*/
 }
 #pic {
 	width:40%;
@@ -432,7 +395,7 @@ section ul li hr {
   	opacity:    1;
 }
 #walterwhite {
-  opacity:    0;  /* change to 1*/
+  opacity:    1;  /* change to 1*/
   background: white; 
   width:      100%;
   height:     100%; 
@@ -441,285 +404,18 @@ section ul li hr {
   left:       0; 
   position:   fixed; 
 }
-
-/* ---Begins CSS for 1280x1024-------------------------------------------------------------------------------- */ 
-
-@media screen and (min-aspect-ratio: 5/4) and (max-aspect-ratio: 16/9){
-a {
-	text-decoration: none;
-	font-family: "Codelight";
-}
-nav {
-	height:12%;
-	width: 100%;
-	position: fixed;
-	background-color: #ecf0f1;
-	z-index: 100;
-}
-#logo {
-	display: inline-block;
-	margin-top:2%;
-	margin-left:10%;
-	max-width: 23%;
-	z-index: 0;
-}
-@font-face {
-    font-family: Codelight;
-    src: url(code_light.otf);
 }
 
-#nav {
-	list-style-type: none;
-	font-weight: 900;
-	max-width: 50%;
-	margin-top:-4%;
-	margin-left:auto;
-	margin-right:5%;
-}
-#nav li {
-	display: inline-block;
-	font-family: "Codelight";
-	font-weight: 550;
-	padding: 0.85%;
-}
-#nav li a, section a {
-	color:black;
-	font-size:1.0em;
-}
-#nav li a:hover {
-	color: #cc3366;
-}
-#ArchDes{
-	font-family: "Codelight";
-	font-size:1.5em;
-	display:block;
-	font-weight: bold;
-	text-align: center;
-}
-/*
-	This is temporary Projects.php css;
-*/
-#CatContainer{
-	position: fixed;
-	top: 250px;	
-}
-#building {
-position: relative;
-width: 100%;
-height: 65%;
-margin-top: 0px;
-margin-bottom: 0px;
-}
-/*
-	position: relative;
-	display:inline-block;
-	width:100%;
-	height:50%;
-	margin-top: 10%;
-	*/
-section {
-	position: relative;
-	margin-top:6%;
-	text-align: center;
-}
-section a:hover{
-	color: #cc3366;
-}
-section a {
-	font-size:1.3em;
-	display:block;
-	font-weight: bold;
-	text-align: center;
-}
-hr {
-	width:20%;
-}
-section ul {
-	list-style-type: none;
-}
-section ul li {
-	display: inline-block;
-	padding-left:10%;
-	padding-right:10%;
-}
-section ul li hr {
-	width:100px;
+/* ---Begins CSS for 1600x900--------------------------------------------------------------------------------*/ 
+@media only screen and (min-width : 1600px) {
+body {
+	background-color:#ecf0f1 ;
+	margin:0;
+	padding: 0;
+	overflow-x:hidden;
+	overflow-y:scroll;
 }
 
-#categories	{
-	padding: 0%;
-	list-style-type: none;
-	margin-top: 10%;
-}
-#categories li {
-	display: inline-block;
-	width: 14%;
-	height: 14%;
-	margin-top: 8%;
-
-}
-/*#categories li img {
-	display: block;
-	text-align: center;
-}*/
-/*#projects {
-	display:inline-block;
-	width:98%;
-	height:60%;
-	margin-top: -5%;
-}*/
-/*#categories li div{	
-	margin-top: 2%;
-	display: inline-block;
-	list-style-type: none;
-	font-family: "Codelight";
-	font-weight:bold;
-	font-size: 1.5em;
-
-}*/
-
-.circular:hover {
-    cursor: pointer;
-    transform:scale(1.2);
-    -ms-transform:scale(1.2); 
-    -moz-transform:scale(1.2); 
-    -webkit-transform:scale(1.2); 
-    -o-transform:scale(1.2);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
- .grow img {
- 	height: 725px;
-  width: 265px;
- 
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
- 
-.grow img:hover {
-  height: 764px;
-  width: 277px;
-}
-.pic {
-  height: 725px;
-  width: 265px;
-  overflow: hidden;
-
-}
-#names {
-	list-style-type: none;
-	display: block;
-	font-family:"CodeLight";
-	font-size: 1em;
-	font-weight: bold;
-	padding: 0%;
-}
-#names li{
-	display: inline-block;
-	padding: 4em;
-	margin-left: -2%;
-	margin-top: -5%
-}
-#names li a{
-	color:black;
-}
-#names li a:hover {
-	color:#cc3366;
-}
-.circular {
-	margin-top: 0%;
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	-moz-box-shadow:    inset 3px 3px 5px 6px #ccc;
-  	-webkit-box-shadow: inset 3px 3px 5px 6px #ccc;
-  	box-shadow:         inset 3px 3px 5px 6px #ccc;
-
-}
-
-#circles {
-	margin-top: 18%;
-	width: 100%;
-	height:100%;
-	text-align: center;
-}
-#circles li{
-	display: inline-block;
-	list-style-type: none;
-	padding: 3em;
-}
-#ctext {
-	margin-top: -55%;
-	margin-left: 2%;
-	text-align: center;
-}
-#ctext li{	
-	padding: 4.1em;
-	font-size: 1.4em;
-	display: inline-block;
-	list-style-type: none;
-}
-#ctext li a{
-	color: black;
-	font-weight: bold;
-}
-#ctext li a:hover{
-	color: #cc3366;
-}
-#map_canvas {
-	margin-top: 8em;
-    width: 100%;
-    height: 40em;
-    background-color: #CCC;
-  }
- #adress li{
- 	margin-top: 2%;
- 	display:inline-block;
- 	font-size: 1.1em;
- 	font-weight: bold;
- }
- #adress li a{
- 	color: black;
- 	padding: 3em;
- }
- #wrapper {
-	display: block; /*change to none*/
-}
-#pic {
-	width:40%;
-	display: block;
-	margin:0 auto;
-	position: fixed;
-	top:50%;
-	left:31%;
-  	transform: translateY(-50%);
-  	z-index:    1001;
-  	opacity:    1;
-}
-#walterwhite {
-  opacity:    0;  /* change to 1*/
-  background: white; 
-  width:      100%;
-  height:     100%; 
-  z-index:    1000;
-  top:        0; 
-  left:       0; 
-  position:   fixed; 
-}
-
-}
-}
-/* ---Begins CSS for 1280x800-------------------------------------------------------------------------------- */ 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1280px){
 a {
 	text-decoration: none;
 	font-family: "Codelight";
@@ -749,7 +445,7 @@ a {
 
 }*/
 #topnav {
-	height: 120px;
+	height: 150px;
 	width: 100%;
 	position: fixed;
 	background-color: #ecf0f1;
@@ -766,10 +462,6 @@ a {
     font-family: Codelight;
     src: url(code_light.otf);
 }
-.nav a{
-	color:black;
-	font-size:1.2em;
-}
 #nav {
 	list-style-type: none;
 	font-weight: 900;
@@ -778,53 +470,37 @@ a {
 	margin-left:auto;
 	margin-right:5%;
 }
-.namers {
-	font-size: 1.5em;
-	font-weight: bold;
-	margin-top: 50px;
-		color: black;
-}
-.namers:hover{
-	color:#cc3366; 
-}
 #nav li {
 	display: inline-block;
 	font-family: "Codelight";
 	font-weight: 550;
 	padding: 2%;
 }
-#red a{
-	color: #cc3366;
-	font-size: 1em;
-}
-#red2 a{
-	color: #cc3366;
-	font-size: 1.1em;
-}
-#mininav {
-	list-style-type: none;
-	font-weight: 900;
-	max-width: 80%;
-	margin-top:-20px;
-	margin-left:300px;
-}
-#mininav li {
-	display: inline-block;
-	font-family: "Codelight";
-	font-weight: 550;
-	padding: 1%;
-}
-.mininav a{
+#nav li a, section a {
 	color:black;
-	font-size:1em;
+	font-size:1.2em;
 }
-#mininav li a:hover {
+#nav li a:hover {
 	color: #cc3366;
 }
+/*#newest {
+	width:250px;
+	background-color: rgba(255,255,255,0.1);
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 230px;
+	z-index: 1000;
+}
+#newest p{
+	font-family: codelight;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+}*/
 #ArchDes{
-	margin-top: 90px;
+	margin-top: 120px;
 	font-family: "Codelight";
-	font-size:1.1em;
+	font-size:1.5em;
 	display:block;
 	font-weight: bold;
 	text-align: center;
@@ -852,6 +528,7 @@ margin-bottom: 0px;
 	margin-top: 10%;
 	*/
 section {
+	мар
 	position: relative;
 	margin-top:3%;
 	text-align: center;
@@ -869,13 +546,11 @@ hr {
 	width:20%;
 }
 section ul {
-	margin-left: -20px;
-	margin-top: -10px;
+	margin-left: -25px;
 	list-style-type: none;
 	width:100%;
 }
 section ul li {
-	font-size: 0.8em;
 	display: inline-block;
 	padding-left:10%;
 	padding-right:10%;
@@ -887,12 +562,11 @@ section ul li hr {
 #categories	{
 	list-style-type: none;
 	margin-top: 10%;
-	padding: 2.11%;
 }
 #categories li {
 	display: inline-block;
-	width: 14%;
-	height: 14%;
+	width: 260px;
+	height: 725px;
 	margin-top: 5%;
 }
 /*#categories li img {
@@ -917,8 +591,8 @@ section ul li hr {
 
 
 .grow img {
- 	height: 515px;
- 	width: 188px;
+ 	height: 725px;
+ 	width: 265px;
  
   -webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
@@ -928,27 +602,28 @@ section ul li hr {
 }
  
 .grow img:hover {
-  height: 535px;
-  width: 196px;
+  width: 280px;
+  height: 766px;
 }
 .pic {
- 	height: 515px;
- 	width: 188px;
+  height: 725px;
+  width: 265px;
   overflow: hidden;
 
 }
-#names {
+#names	{
+	width: 100%;
+	margin-left: 65px;
+	margin-top: -70px;
 	list-style-type: none;
-	display: block;
-	font-family:"CodeLight";
-	font-size: 1.2em;
-	font-weight: bold;
 }
-#names li{
+#names li {
+	font-weight: bold;
+	font-size: 1.5em;
 	display: inline-block;
-	padding: 2.78em;
-	margin-left: -2%;
-	margin-top: -10%
+	width: 260px;
+	height: 14%;
+	margin-top: 5%;
 }
 #names li a{
 	color:black;
@@ -956,10 +631,66 @@ section ul li hr {
 #names li a:hover {
 	color:#cc3366;
 }
-.cat {
+.circular {
 	margin-top: 0%;
 	width: 200px;
 	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.circular:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#circles {
+	margin-top: 3%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#circles li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 3em;
+}
+#ctext {
+	margin-top: -35%;
+	text-align: center;
+	width: 100%;
+	height:25%;
+}
+#ctext li{	
+	font-size: 1.5em;
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	font-weight: bold;
+	width: 200px;
+}
+#ctext li a{
+	color: black;
+}
+#ctext li a:hover{
+	color: #cc3366;
+}
+
+.cat {
+	margin-top: 0%;
+	width: 300px;
+	height: 300px;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
@@ -991,11 +722,11 @@ section ul li hr {
 	display: inline-block;
 	list-style-type: none;
 	padding: 2em;
-	width: 100px;
+	width: 200px;
 }
 #catex {
-	margin-left: 3%;
-	margin-top: -40%;
+	margin-left: 10px;
+	margin-top: -34%;
 	text-align: center;
 	height:25%;
 }
@@ -1003,10 +734,10 @@ section ul li hr {
 	display: inline-block;
 	list-style-type: none;
 	padding: 2em;
-	width: 100px;
+	width: 200px;
 }
 .catex {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-weight: bold;
 }
 #catex li a{
@@ -1016,6 +747,297 @@ section ul li hr {
 	color: #cc3366;
 }
 
+
+#map_canvas {
+	margin-top:7.6%;
+    width: 1600px;
+    height: 400px;
+    background-color: #CCC;
+  }
+ #adress li{
+ 	margin-top: 2%;
+ 	display:inline-block;
+ 	font-size: 1.5em;
+ 	font-weight: bold;
+	padding: 1em;
+ }
+ #adress li a{
+ 	color: black;
+ }
+#wrapper {
+	display: block;
+}
+#pic {
+	width:40%;
+	display: block;
+	margin:0 auto;
+	position: fixed;
+	top:50%;
+	left:31%;
+  	transform: translateY(-50%);
+  	z-index:    1001;
+  	opacity:    1;
+}
+#walterwhite {
+  opacity:    1; 
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+#wrapper {
+	display: none; /*change to none*/
+}
+#pic {
+	width:40%;
+	display: block;
+	margin:0 auto;
+	position: fixed;
+	top:50%;
+	left:31%;
+  	transform: translateY(-50%);
+  	z-index:    1001;
+  	opacity:    1;
+}
+#walterwhite {
+  opacity:    1;  /* change to 1*/
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+}
+/* ---Begins CSS for 1366x768--------------------------------------------------------------------------------*/ 
+@media only screen and (min-width : 1366px) {
+body {
+	background-color:#ecf0f1 ;
+	margin:0;
+	padding: 0;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Codelight";
+}
+/*.dim
+{
+			height:100%;
+			width:100%;
+			position:fixed;
+			left:0;
+			top:0;
+			z-index:2000;
+			background-color:#ecf0f1;
+			opacity: 1;
+
+}
+.dim:hover
+{
+			opacity: 0;
+			width: 0%;
+			height: 0%;
+			-webkit-transition: all 1s ease;
+     		-moz-transition: all 2s ease;
+       		-o-transition: all 2s ease;
+      		-ms-transition: all 2s ease;
+          	transition: all 2s ease;
+
+}*/
+#topnav {
+	height: 150px;
+	width: 100%;
+	position: fixed;
+	background-color: #ecf0f1;
+	z-index: 100;
+}
+#logo {
+	display: inline-block;
+	margin-top:1%;
+	margin-left:10%;
+	max-width: 30%;
+	z-index: 0;
+}
+@font-face {
+    font-family: Codelight;
+    src: url(code_light.otf);
+}
+#nav {
+	list-style-type: none;
+	font-weight: 900;
+	max-width: 50%;
+	margin-top:-4%;
+	margin-left:auto;
+	margin-right:5%;
+}
+#nav li {
+	display: inline-block;
+	font-family: "Codelight";
+	font-weight: 550;
+	padding: 2%;
+}
+#nav li a, section a {
+	color:black;
+	font-size:1.2em;
+}
+#nav li a:hover {
+	color: #cc3366;
+}
+/*#newest {
+	width:250px;
+	background-color: rgba(255,255,255,0.1);
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 230px;
+	z-index: 1000;
+}
+#newest p{
+	font-family: codelight;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+}*/
+#ArchDes{
+	margin-top: 120px;
+	font-family: "Codelight";
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*
+	This is temporary Projects.php css;
+*/
+#CatContainer{
+	position: fixed;
+	top: 250px;	
+}
+#building {
+position: relative;
+width: 100%;
+height: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+/*
+	position: relative;
+	display:inline-block;
+	width:100%;
+	height:50%;
+	margin-top: 10%;
+	*/
+section {
+	мар
+	position: relative;
+	margin-top:3%;
+	text-align: center;
+}
+section a:hover{
+	color: #cc3366;
+}
+section a {
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+hr {
+	width:20%;
+}
+section ul {
+	margin-left: -25px;
+	list-style-type: none;
+	width:100%;
+}
+section ul li {
+	display: inline-block;
+	padding-left:10%;
+	padding-right:10%;
+}
+section ul li hr {
+	width:100px;
+}
+
+#categories	{
+	list-style-type: none;
+	margin-top: 10%;
+}
+#categories li {
+	display: inline-block;
+	width: 260px;
+	height: 725px;
+	margin-top: 5%;
+}
+/*#categories li img {
+	display: block;
+	text-align: center;
+}*/
+/*#projects {
+	display:inline-block;
+	width:98%;
+	height:60%;
+	margin-top: -5%;
+}*/
+/*#categories li div{	
+	margin-top: 2%;
+	display: inline-block;
+	list-style-type: none;
+	font-family: "Codelight";
+	font-weight:bold;
+	font-size: 1.5em;
+
+}*/
+
+
+.grow img {
+ 	height: 725px;
+ 	width: 265px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 280px;
+  height: 766px;
+}
+.pic {
+  height: 725px;
+  width: 265px;
+  overflow: hidden;
+
+}
+#names	{
+	width: 100%;
+	margin-left: 65px;
+	margin-top: -70px;
+	list-style-type: none;
+}
+#names li {
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 260px;
+	height: 14%;
+	margin-top: 5%;
+}
+#names li a{
+	color:black;
+}
+#names li a:hover {
+	color:#cc3366;
+}
 .circular {
 	margin-top: 0%;
 	width: 200px;
@@ -1058,12 +1080,12 @@ section ul li hr {
 	height:25%;
 }
 #ctext li{	
-	font-size: 1.3em;
+	font-size: 1.2em;
 	display: inline-block;
 	list-style-type: none;
-	padding: 0.1em;
+	padding: 2.5em;
 	font-weight: bold;
-	width: 296px;
+	width: 200px;
 }
 #ctext li a{
 	color: black;
@@ -1071,24 +1093,86 @@ section ul li hr {
 #ctext li a:hover{
 	color: #cc3366;
 }
+
+.cat {
+	margin-top: 0%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.cat:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#cat {
+	margin-top: 15%;
+	margin-left: -4%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#cat li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 1em;
+	width: 200px;
+}
+#catex {
+	margin-left: -60px;
+	margin-top: -37%;
+	text-align: center;
+	height:25%;
+}
+#catex li{	
+	display: inline-block;
+	list-style-type: none;
+	padding: 1em;
+	width: 200px;
+}
+.catex {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#catex li a{
+	color: black;
+}
+#catex li a:hover{
+	color: #cc3366;
+}
+
+
 #map_canvas {
-	margin-top:10%;
-    width: 1270px;
-    height: 330px;
+	margin-top:7.6%;
+    width: 1366px;
+    height: 300px;
     background-color: #CCC;
   }
  #adress li{
  	margin-top: 2%;
  	display:inline-block;
- 	font-size: 1.3em;
+ 	font-size: 1.2em;
  	font-weight: bold;
-	padding: 2em;
+	padding: 1em;
  }
  #adress li a{
  	color: black;
  }
 #wrapper {
-	display: block; /*change to none*/
+	display: block;
 }
 #pic {
 	width:40%;
@@ -1102,7 +1186,7 @@ section ul li hr {
   	opacity:    1;
 }
 #walterwhite {
-  opacity:    0;  /* change to 1*/
+  opacity:    1; 
   background: white; 
   width:      100%;
   height:     100%; 
@@ -1110,4 +1194,29 @@ section ul li hr {
   top:        0; 
   left:       0; 
   position:   fixed; 
+}
+#wrapper {
+	display: none; /*change to none*/
+}
+#pic {
+	width:40%;
+	display: block;
+	margin:0 auto;
+	position: fixed;
+	top:50%;
+	left:31%;
+  	transform: translateY(-50%);
+  	z-index:    1001;
+  	opacity:    1;
+}
+#walterwhite {
+  opacity:    1;  /* change to 1*/
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
 }

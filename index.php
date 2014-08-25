@@ -1,7 +1,9 @@
 <html>
 	<head>
 		<link rel="shortcut icon" href="icon.ico" >
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="style169.css">
+		<link rel="stylesheet" type="text/css" href="style~169.css">
+		<link rel="stylesheet" type="text/css" href="style54.css">
 		<script src="https://maps.googleapis.com/maps/api/js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
@@ -71,18 +73,14 @@
 		<!--end page1-->
 		<ul id="cat" >
 			<li><a href="projects2.php"><img class="cat" src="res.png"></a></li>
-			<li><a href=""><img class="cat" src="aca.png"></a></li>
 			<li><a href=""><img class="cat" src="off2.png"></a></li>
-			<li><a href=""><img class="cat" src="bank2.png"></a></li>
 			<li><a href=""><img class="cat" src="hotel.png"></a></li>
 			<li><a href=""><img class="cat" src="fac.png"></a></li>
 			<li><a href=""><img class="cat" src="int.png"></a></li>
 		</ul>
 		<ul id="catex">
 			<li><a class="catex" href="#">Residential</a></li>
-			<li><a class="catex" href="#">Academic</br> Services</a></li>
 			<li><a class="catex" href="#">Office &</br> public</a></li>
-			<li><a class="catex" href="#">Banks</a></li>
 			<li><a class="catex" href="#">Hotels</a></li>
 			<li><a class="catex" href="#">Industrial</br> Services</a></li>
 			<li><a class="catex" href="#">Interior</a></li>

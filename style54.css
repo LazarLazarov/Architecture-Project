@@ -1,0 +1,383 @@
+/* ---Begins CSS for 1280x1024-------------------------------------------------------------------------------- */ 
+
+@media screen and (device-aspect-ratio: 5/4){
+body {
+	background-color:#ecf0f1 ;
+	margin:0;
+	padding: 0;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Codelight";
+}
+#topnav {
+	height: 150px;
+	width: 100%;
+	position: fixed;
+	background-color: #ecf0f1;
+	z-index: 100;
+}
+#logo {
+	display: inline-block;
+	margin-top:1%;
+	margin-left:10%;
+	max-width: 30%;
+	z-index: 0;
+}
+@font-face {
+    font-family: Codelight;
+    src: url(code_light.otf);
+}
+#nav {
+	list-style-type: none;
+	font-weight: 900;
+	max-width: 50%;
+	margin-top:-4%;
+	margin-left:auto;
+	margin-right:5%;
+}
+#nav li {
+	display: inline-block;
+	font-family: "Codelight";
+	font-weight: 550;
+	padding: 2%;
+}
+#nav li a, section a {
+	color:black;
+	font-size:1.2em;
+}
+#nav li a:hover {
+	color: #cc3366;
+}
+/*#newest {
+	width:250px;
+	background-color: rgba(255,255,255,0.1);
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 230px;
+	z-index: 1000;
+}
+#newest p{
+	font-family: codelight;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+}*/
+#ArchDes{
+	margin-top: 120px;
+	font-family: "Codelight";
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*
+	This is temporary Projects.php css;
+*/
+#CatContainer{
+	position: fixed;
+	top: 250px;	
+}
+#building {
+position: relative;
+width: 100%;
+height: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+/*
+	position: relative;
+	display:inline-block;
+	width:100%;
+	height:50%;
+	margin-top: 10%;
+	*/
+section {
+	position: relative;
+	margin-top:12%;
+	text-align: center;
+}
+section a:hover{
+	color: #cc3366;
+}
+section a {
+	font-size:1.5em;
+	display:block;
+	font-weight: bold;
+	text-align: center;
+}
+hr {
+	width:20%;
+}
+section ul {
+	margin-left: -25px;
+	list-style-type: none;
+	width:100%;
+}
+section ul li {
+	display: inline-block;
+	padding-left:10%;
+	padding-right:10%;
+}
+section ul li hr {
+	width:100px;
+}
+
+#categories	{
+	list-style-type: none;
+	margin-top: 10%;
+}
+#categories li {
+	display: inline-block;
+	width: 260px;
+	height: 725px;
+	margin-top: 5%;
+}
+/*#categories li img {
+	display: block;
+	text-align: center;
+}*/
+/*#projects {
+	display:inline-block;
+	width:98%;
+	height:60%;
+	margin-top: -5%;
+}*/
+/*#categories li div{	
+	margin-top: 2%;
+	display: inline-block;
+	list-style-type: none;
+	font-family: "Codelight";
+	font-weight:bold;
+	font-size: 1.5em;
+
+}*/
+
+
+.grow img {
+ 	height: 725px;
+ 	width: 265px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 280px;
+  height: 766px;
+}
+.pic {
+  height: 725px;
+  width: 265px;
+  overflow: hidden;
+
+}
+#names	{
+	width: 100%;
+	margin-left: 65px;
+	margin-top: -70px;
+	list-style-type: none;
+}
+#names li {
+	font-weight: bold;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 260px;
+	height: 14%;
+	margin-top: 5%;
+}
+#names li a{
+	color:black;
+}
+#names li a:hover {
+	color:#cc3366;
+}
+.circular {
+	margin-top: 0%;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.circular:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#circles {
+	margin-top: 9%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#circles li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 3em;
+	width: 200px;
+}
+#ctext {
+	margin-top: -55%;
+	text-align: center;
+	width: 100%;
+	height:100%;
+}
+#ctext li{	
+	display: inline-block;
+	list-style-type: none;
+	padding: 2.5em;
+	font-weight: bold;
+	width: 196px;
+}
+#ctext li a{
+	color: black;
+}
+#ctext li a:hover{
+	color: #cc3366;
+}
+
+.cat {
+	margin-top: 20%;
+	width: 300px;
+	height: 300px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+    overflow: auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+
+}
+.cat:hover {
+    cursor: pointer;
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); 
+    -moz-transform:scale(1.2); 
+    -webkit-transform:scale(1.2); 
+    -o-transform:scale(1.2);
+
+}
+#cat {
+	margin-top: 15%;
+	margin-left: -4%;
+	width: 100%;
+	height:100%;
+	text-align: center;
+}
+#cat li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	width: 150px;
+}
+#catex {
+	margin-left: 8%;
+	margin-top: -50%;
+	text-align: center;
+	height:25%;
+}
+#catex li{	
+	display: inline-block;
+	list-style-type: none;
+	padding: 2em;
+	width: 150px;
+}
+.catex {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#catex li a{
+	color: black;
+}
+#catex li a:hover{
+	color: #cc3366;
+}
+
+
+#map_canvas {
+	margin-top:-45%;
+    width: 100%;
+    height: 500px;
+    background-color: #CCC;
+  }
+ #adress li{
+ 	margin-top: 2%;
+ 	display:inline-block;
+ 	font-size: 1.2em;
+ 	font-weight: bold;
+	padding: 3em;
+ }
+ #adress li a{
+ 	color: black;
+ }
+#wrapper {
+	display: block;
+}
+#pic {
+	width:40%;
+	display: block;
+	margin:0 auto;
+	position: fixed;
+	top:50%;
+	left:31%;
+  	transform: translateY(-50%);
+  	z-index:    1001;
+  	opacity:    1;
+}
+#walterwhite {
+  opacity:    1; 
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+#wrapper {
+	display: none; /*change to none*/
+}
+#pic {
+	width:40%;
+	display: block;
+	margin:0 auto;
+	position: fixed;
+	top:50%;
+	left:31%;
+  	transform: translateY(-50%);
+  	z-index:    1001;
+  	opacity:    1;
+}
+#walterwhite {
+  opacity:    1;  /* change to 1*/
+  background: white; 
+  width:      100%;
+  height:     100%; 
+  z-index:    1000;
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+}
