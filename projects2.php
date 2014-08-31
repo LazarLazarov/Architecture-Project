@@ -48,7 +48,7 @@ Services</a></li>
 <div id="cbp-fwslider" class="cbp-fwslider">
 <ul id="box-container">
 				<li>
-					<a rel="gallery-1" href="#">
+					<a href="#">
 						<img id="pr1" src="images/o1.jpg" alt="image"><p class="namers">Some building</p>
 					</a>
 				</li>
@@ -59,12 +59,12 @@ Services</a></li>
 				</li>
 				<li>
 					<a rel="gallery-3" href="#">
-						<img id="pr1" src="images/b1.jpg" alt="image">
+						<img id="pr3" src="images/b1.jpg" alt="image">
 					</a>
 				</li>
 				<li>
 					<a rel="gallery-4" href="#">
-						<img id="pr1" src="images/b1.jpg" alt="image">
+						<img id="pr4" src="images/b1.jpg" alt="image">
 					</a>
 				</li>
 			</ul>

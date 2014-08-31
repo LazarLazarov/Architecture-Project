@@ -16,11 +16,6 @@
 		<link rel="stylesheet" href="src/css/swipebox.css">
 		<link rel='stylesheet prefetch' href='http://dimsemenov-static.s3.amazonaws.com/dist/magnific-popup.css'>
 		 <style type="text/css">
-
-::-webkit-scrollbar { 
-    display: none; 
-}
-
 .white-popup {
   position: relative;
   background: #FFF;
@@ -154,9 +149,9 @@
 		<!--end page2-->
 		<ul class="circles" id="inline-popups" >
 			<li><a href="#test-popup" data-effect="mfp-zoom-in"><img class="circular" src="com.png"></a></li>
-			<li><a href="#test-popup2" data-effect="mfp-zoom-in"><img class="circular" src="exp.png"></a></li>
-			<li><a href="#test-popup3" data-effect="mfp-zoom-in"><img class="circular" src="teh.png"></a></li>
-			<li><a href="#test-popup4" data-effect="mfp-zoom-in"><img class="circular" src="car.png"></a></li>
+			<li><img class="circular" src="exp.png"></li>
+			<li><img class="circular" src="teh.png"></li>
+			<li><img class="circular" src="car.png"></li>
 		</ul>
 		<ul id="ctext">
 			<li><a class="test" id="modal">Company</a></li>
@@ -167,26 +162,16 @@
 		<!--end page3-->
 		<div id="map_canvas"></div>
 		<ul id="adress">
-			<li><a id="contacts" class="test"></br>Adress</br> 58 Burel Str,</br> 1408
+			<li><a id="contacts" class="test" href="#"></br>Adress</br> 58 Burel Str,</br> 1408
 											Sofia,</br> Bulgaria</a></li>
-			<li><a class="test" ></br>Tel</br>(+359 2) 953 09 42
+			<li><a class="test" href="#"></br>Tel</br>(+359 2) 953 09 42
 										</br>(+359 2) 954 10 93</br>&nbsp</a></li>
-			<li><a class="test" ></br>Fax</br>(+359 2) 480 85 49</br></br>&nbsp</a></li>
-			<li><a class="test" ></br>E-mail</br>office@vecomplex.com</br></br>&nbsp</a></li>
+			<li><a class="test" href="#"></br>Fax</br>(+359 2) 480 85 49</br></br>&nbsp</a></li>
+			<li><a class="test" href="#"></br>E-mail</br>office@vecomplex.com</br></br>&nbsp</a></li>
 		</ul>
 		<div id="test-popup" class="white-popup mfp-with-anim mfp-hide"><center><b>Company</b></center><br/><b> Vecomplex Ltd. was established in 1996 . 
 		We are a private architectural and design agency, created by specialists with thorough knowledge, creativity and experience in
 		 building design and project management. </b>
-</div>
-<div id="test-popup2" class="white-popup mfp-with-anim mfp-hide"><center><b>Exported Services</b></center><br/><b> We worked for a number of foreign and international firms in our country like: DHL International Ltd., ING Bank, Unionbank AG, OMW, Shipyard J.S.C., Sigma capital, Heidelberg cement, Lukoil, bulgarian Construction Company and etc.
- </b>
-</div>
-<div id="test-popup3" class="white-popup mfp-with-anim mfp-hide"><center><b>Technology</b></center><br/><b>Vecomplex ltd meets the challenge of communicating complex ideas and designs using the most current tools of technology such as Animation Samples, Virtual Reality, 3D Modeling, Exterior and Interior, Photomontage and Multimedia Sample Presentation</b>
-</div>
-<div id="test-popup4" class="white-popup mfp-with-anim mfp-hide"><center><b>Carriers</b></center><br/><b>
-Entry-level architect and interior designer, Allplan knowledge
-Design your career at Vecomplex ltd.
-If you are interested in joining the Vecomplex team, please forward your CV to job@vecomplex.com</b>
 </div>
 		<script src="smooth-scroll.js"></script>
 		<script>

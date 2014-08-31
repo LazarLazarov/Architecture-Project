@@ -1,0 +1,16 @@
+
+<html>
+<head>
+	<link rel="stylesheet" href="messi.css" />
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+</head>
+<body>
+<a id="modal">kur</a>
+<script type="text/javascript">
+	$('#modal').on('click', function() {
+          new Messi('This is a message with Messi in modal view. Now you can\'t interact with other elements in the page until close this.', {title: 'Modal Window', modal: true});
+        });
+</script>
+<script src="messi.js"></script>
+</body>
+</html>

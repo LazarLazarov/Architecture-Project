@@ -11,7 +11,7 @@ body {
 
 a {
 	text-decoration: none;
-	font-family: "Codelight";
+	 font-family: "DejaVu";
 }
 /*.dim
 {
@@ -53,8 +53,8 @@ a {
 	z-index: 0;
 }
 @font-face {
-    font-family: Codelight;
-    src: url(code_light.otf);
+    font-family: DejaVu;
+    src: url(DejaVuSans.ttf);
 }
 #nav {
 	list-style-type: none;
@@ -66,7 +66,7 @@ a {
 }
 #nav li {
 	display: inline-block;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight: 550;
 	padding: 2%;
 }
@@ -86,14 +86,14 @@ a {
 	z-index: 1000;
 }
 #newest p{
-	font-family: codelight;
+	font-family: DejaVu;
 	font-weight: bold;
 	font-size: 1.3em;
 	text-align: center;
 }*/
 #ArchDes{
 	margin-top: 120px;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-size:1.5em;
 	display:block;
 	font-weight: bold;
@@ -177,7 +177,7 @@ section ul li hr {
 	margin-top: 2%;
 	display: inline-block;
 	list-style-type: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight:bold;
 	font-size: 1.5em;
 
@@ -420,7 +420,7 @@ body {
 
 a {
 	text-decoration: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 }
 /*.dim
 {
@@ -461,7 +461,7 @@ a {
 	z-index: 0;
 }
 @font-face {
-    font-family: Codelight;
+    font-family: DejaVu;
     src: url(code_light.otf);
 }
 #nav {
@@ -474,7 +474,7 @@ a {
 }
 #nav li {
 	display: inline-block;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight: 550;
 	padding: 2%;
 }
@@ -494,14 +494,14 @@ a {
 	z-index: 1000;
 }
 #newest p{
-	font-family: codelight;
+	font-family: DejaVu;
 	font-weight: bold;
 	font-size: 1.3em;
 	text-align: center;
 }*/
 #ArchDes{
 	margin-top: 120px;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-size:1.5em;
 	display:block;
 	font-weight: bold;
@@ -585,7 +585,7 @@ section ul li hr {
 	margin-top: 2%;
 	display: inline-block;
 	list-style-type: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight:bold;
 	font-size: 1.5em;
 
@@ -827,7 +827,7 @@ body {
 
 a {
 	text-decoration: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 }
 /*.dim
 {
@@ -868,7 +868,7 @@ a {
 	z-index: 0;
 }
 @font-face {
-    font-family: Codelight;
+    font-family: DejaVu;
     src: url(code_light.otf);
 }
 #nav {
@@ -881,7 +881,7 @@ a {
 }
 #nav li {
 	display: inline-block;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight: 550;
 	padding: 2%;
 }
@@ -901,14 +901,14 @@ a {
 	z-index: 1000;
 }
 #newest p{
-	font-family: codelight;
+	font-family: DejaVu;
 	font-weight: bold;
 	font-size: 1.3em;
 	text-align: center;
 }*/
 #ArchDes{
 	margin-top: 120px;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-size:1.5em;
 	display:block;
 	font-weight: bold;
@@ -992,7 +992,7 @@ section ul li hr {
 	margin-top: 2%;
 	display: inline-block;
 	list-style-type: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight:bold;
 	font-size: 1.5em;
 
@@ -1234,7 +1234,7 @@ body {
 
 a {
 	text-decoration: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 }
 /*.dim
 {
@@ -1275,7 +1275,7 @@ a {
 	z-index: 0;
 }
 @font-face {
-    font-family: Codelight;
+    font-family: DejaVu;
     src: url(code_light.otf);
 }
 #nav {
@@ -1288,7 +1288,7 @@ a {
 }
 #nav li {
 	display: inline-block;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight: 550;
 	padding: 2%;
 }
@@ -1301,7 +1301,7 @@ a {
 }
 #ArchDes{
 	margin-top: 90px;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-size:1.1em;
 	display:block;
 	font-weight: bold;
@@ -1387,7 +1387,7 @@ section ul li hr {
 	margin-top: 2%;
 	display: inline-block;
 	list-style-type: none;
-	font-family: "Codelight";
+	font-family: "DejaVu";
 	font-weight:bold;
 	font-size: 1.5em;
 
@@ -1418,7 +1418,7 @@ section ul li hr {
 #names {
 	list-style-type: none;
 	display: block;
-	font-family:"CodeLight";
+	font-family:"DejaVu";
 	font-size: 1.2em;
 	font-weight: bold;
 }
